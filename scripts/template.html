@@ -51,7 +51,9 @@
     .sb-search input{width:100%;background:var(--bg-primary);border:1px solid var(--border-default);padding:7px 10px 7px 30px;border-radius:var(--radius-sm);color:var(--text-primary);font-size:12px;font-family:inherit;outline:none;transition:border-color .2s}
     .sb-search input:focus{border-color:var(--accent)}
     .sb-progress{padding:10px 16px;border-bottom:1px solid var(--border-subtle);display:flex;gap:12px}
-    .sb-prog-item{display:flex;flex-direction:column;align-items:center;flex:1}
+    .sb-prog-item{display:flex;flex-direction:column;align-items:center;flex:1;cursor:pointer;padding:6px 4px;border-radius:6px;transition:all .15s;border:1px solid transparent}
+    .sb-prog-item:hover{background:var(--bg-muted)}
+    .sb-prog-item.active-stat{border-color:var(--accent);background:var(--accent-dim)}
     .sb-prog-val{font-size:14px;font-weight:800}
     .sb-prog-val.green{color:var(--green)}
     .sb-prog-val.red{color:var(--red)}
@@ -61,12 +63,16 @@
     .sb-section-title{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:var(--text-tertiary);margin-bottom:8px;display:flex;align-items:center;justify-content:space-between}
     .sb-count{background:var(--bg-muted);padding:1px 6px;border-radius:4px;font-size:10px}
     .sb-list{list-style:none;padding:0 8px 12px}
-    .sb-item{display:flex;align-items:center;gap:8px;padding:5px 8px;border-radius:6px;cursor:pointer;font-size:12px;color:var(--text-secondary);transition:all .12s;border:1px solid transparent;margin-bottom:2px}
+    .sb-item{display:flex;align-items:center;gap:6px;padding:5px 8px;border-radius:6px;cursor:pointer;font-size:12px;color:var(--text-secondary);transition:all .12s;border:1px solid transparent;margin-bottom:2px;border-left:3px solid transparent}
     .sb-item:hover{background:var(--bg-muted);color:var(--text-primary)}
     .sb-item.active{background:var(--accent-dim);color:var(--accent-bright);border-color:rgba(129,140,248,.2)}
-    .sb-item.answered-correct{border-left:2px solid var(--green)}
-    .sb-item.answered-incorrect{border-left:2px solid var(--red)}
-    .sb-item.bookmarked{border-left:2px solid var(--amber)}
+    .sb-item.topic-algebra{border-left-color:#818cf8}
+    .sb-item.topic-arith{border-left-color:#34d399}
+    .sb-item.topic-ppl{border-left-color:#f59e0b}
+    .sb-item.topic-tsd{border-left-color:#f87171}
+    .sb-item.answered-correct .sb-num{color:var(--green)}
+    .sb-item.answered-incorrect .sb-num{color:var(--red)}
+    .sb-item.bookmarked .sb-num{color:var(--amber)}
     .sb-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0}
     .sb-dot.green{background:var(--green)}
     .sb-dot.red{background:var(--red)}
@@ -277,10 +283,10 @@
         </div>
       </div>
       <div class="sb-progress" id="sidebarProgress">
-        <div class="sb-prog-item"><span class="sb-prog-val blue" id="sb-total">0</span><span class="sb-prog-lbl">Total</span></div>
-        <div class="sb-prog-item"><span class="sb-prog-val green" id="sb-correct">0</span><span class="sb-prog-lbl">Correct</span></div>
-        <div class="sb-prog-item"><span class="sb-prog-val red" id="sb-wrong">0</span><span class="sb-prog-lbl">Wrong</span></div>
-        <div class="sb-prog-item"><span class="sb-prog-val" id="sb-bookmarked" style="color:var(--amber)">0</span><span class="sb-prog-lbl">Saved</span></div>
+        <div class="sb-prog-item" onclick="filterByStatus('all')"><span class="sb-prog-val blue" id="sb-total">0</span><span class="sb-prog-lbl">Total</span></div>
+        <div class="sb-prog-item" onclick="filterByStatus('correct')"><span class="sb-prog-val green" id="sb-correct">0</span><span class="sb-prog-lbl">Correct</span></div>
+        <div class="sb-prog-item" onclick="filterByStatus('wrong')"><span class="sb-prog-val red" id="sb-wrong">0</span><span class="sb-prog-lbl">Wrong</span></div>
+        <div class="sb-prog-item" onclick="filterByStatus('bookmarked')"><span class="sb-prog-val" id="sb-bookmarked" style="color:var(--amber)">0</span><span class="sb-prog-lbl">Saved</span></div>
       </div>
       <div style="flex:1;overflow-y:auto;padding:8px 0">
         <ul class="sb-list" id="sidebarList"></ul>
@@ -310,6 +316,7 @@ JS_DATA_PLACEHOLDER
     var redoMode = false;
     var renderedCards = {};
     var observer = null;
+    var currentSidebarStatus = 'all';
 
     function saveProgress() {
       try {
@@ -395,6 +402,9 @@ JS_DATA_PLACEHOLDER
         if (currentType === 'correct' && (userAnswers[q.id] === undefined || !userAnswers[q.id].isCorrect)) continue;
         if (currentType === 'incorrect' && (userAnswers[q.id] === undefined || userAnswers[q.id].isCorrect)) continue;
         if (currentType === 'bookmarked' && !bookmarks[q.id]) continue;
+        if (currentSidebarStatus === 'correct' && (userAnswers[q.id] === undefined || !userAnswers[q.id].isCorrect)) continue;
+        if (currentSidebarStatus === 'wrong' && (userAnswers[q.id] === undefined || userAnswers[q.id].isCorrect)) continue;
+        if (currentSidebarStatus === 'bookmarked' && !bookmarks[q.id]) continue;
         if (currentQuery) {
           var text = (q.text + ' ' + q.meta + ' ' + q.topic + ' ' + q.year).toLowerCase();
           if (text.indexOf(currentQuery) === -1) continue;
@@ -632,6 +642,16 @@ JS_DATA_PLACEHOLDER
       if (el) el.classList.add('active');
       applyFilters();
     }
+    function filterByStatus(status) {
+      currentSidebarStatus = status;
+      var items = document.querySelectorAll('.sb-prog-item');
+      for (var i = 0; i < items.length; i++) items[i].classList.remove('active-stat');
+      if (status === 'all') items[0].classList.add('active-stat');
+      else if (status === 'correct') items[1].classList.add('active-stat');
+      else if (status === 'wrong') items[2].classList.add('active-stat');
+      else if (status === 'bookmarked') items[3].classList.add('active-stat');
+      applyFilters();
+    }
     function toggleRedoMode() {
       redoMode = !redoMode;
       var btn = document.getElementById('redoBtn');
@@ -662,7 +682,8 @@ JS_DATA_PLACEHOLDER
       for (var i = 0; i < data.length; i++) {
         var q = data[i];
         var li = document.createElement('li');
-        li.className = 'sb-item';
+        var tc = getTopicClass(q.topic);
+        li.className = 'sb-item topic-' + tc;
         li.setAttribute('data-qid', q.id);
         li.onclick = (function(qid) {
           return function() {
@@ -671,30 +692,35 @@ JS_DATA_PLACEHOLDER
             if (window.innerWidth <= 768) document.getElementById('sidebar').classList.remove('open');
           };
         })(q.id);
-        var dotColor = 'gray';
-        var itemExtra = '';
-        if (bookmarks[q.id]) { dotColor = 'amber'; itemExtra = ' bookmarked'; }
+        var statusIcon = '';
         if (userAnswers[q.id]) {
-          if (userAnswers[q.id].isCorrect) { dotColor = 'green'; itemExtra = ' answered-correct'; }
-          else { dotColor = 'red'; itemExtra = ' answered-incorrect'; }
+          if (userAnswers[q.id].isCorrect) { li.classList.add('answered-correct'); statusIcon = '<i class="fa-solid fa-check" style="color:var(--green);font-size:9px"></i>'; }
+          else { li.classList.add('answered-incorrect'); statusIcon = '<i class="fa-solid fa-xmark" style="color:var(--red);font-size:9px"></i>'; }
+        } else {
+          statusIcon = '<span style="color:var(--text-tertiary);font-size:9px">—</span>';
         }
-        li.className = 'sb-item' + itemExtra;
-        li.innerHTML = '<span class="sb-dot ' + dotColor + '"></span><span class="sb-num">Q' + q.id + '</span><span class="sb-label">' + q.meta + '</span>';
+        if (bookmarks[q.id]) li.classList.add('bookmarked');
+        li.innerHTML = '<span class="sb-num">Q' + q.id + '</span>' + statusIcon;
         list.appendChild(li);
       }
     }
     function updateSidebarItem(qId) {
       var item = document.querySelector('.sb-item[data-qid="' + qId + '"]');
       if (!item) return;
-      var dotColor = 'gray';
-      var extra = '';
-      if (bookmarks[qId]) { dotColor = 'amber'; extra = ' bookmarked'; }
+      var q = null;
+      for (var i = 0; i < questionsData.length; i++) { if (questionsData[i].id === qId) { q = questionsData[i]; break; } }
+      if (!q) return;
+      var tc = getTopicClass(q.topic);
+      item.className = 'sb-item topic-' + tc;
+      var statusIcon = '';
       if (userAnswers[qId]) {
-        if (userAnswers[qId].isCorrect) { dotColor = 'green'; extra = ' answered-correct'; }
-        else { dotColor = 'red'; extra = ' answered-incorrect'; }
+        if (userAnswers[qId].isCorrect) { item.classList.add('answered-correct'); statusIcon = '<i class="fa-solid fa-check" style="color:var(--green);font-size:9px"></i>'; }
+        else { item.classList.add('answered-incorrect'); statusIcon = '<i class="fa-solid fa-xmark" style="color:var(--red);font-size:9px"></i>'; }
+      } else {
+        statusIcon = '<span style="color:var(--text-tertiary);font-size:9px">—</span>';
       }
-      item.className = 'sb-item' + extra;
-      item.querySelector('.sb-dot').className = 'sb-dot ' + dotColor;
+      if (bookmarks[qId]) item.classList.add('bookmarked');
+      item.innerHTML = '<span class="sb-num">Q' + qId + '</span>' + statusIcon;
     }
     function updateSidebarProgress() {
       var total = questionsData.length;
