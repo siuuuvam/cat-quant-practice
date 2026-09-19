@@ -701,7 +701,7 @@
         <span class="timer-label">Time</span>
         <span class="timer-display" id="timerDisplay">40:00</span>
       </div>
-      <button class="submit-test-btn" onclick="submitTest()">Submit</button>
+      <button class="submit-test-btn" onclick="window.__submitTest()">Submit</button>
     </div>
   </div>
 </header>
@@ -878,9 +878,10 @@
       html += '<div class="options-grid">';
       opts.forEach(function(opt) {
         const isSelected = userAns === opt.letter;
+        const optText = opt.text && opt.text.indexOf('<img') !== -1 ? opt.text : escapeHtml(opt.text);
         html += '<button class="option-btn' + (isSelected ? ' selected' : '') + '" onclick="window.__selectOption(\'' + escapeHtml(opt.letter) + '\')">';
         html += '<span class="option-letter">' + escapeHtml(opt.letter) + '</span>';
-        html += '<span>' + escapeHtml(opt.text) + '</span>';
+        html += '<span>' + optText + '</span>';
         html += '</button>';
       });
       html += '</div>';
@@ -928,6 +929,8 @@
     renderQuestion();
     buildGrid();
   };
+
+  window.__submitTest = function() { submitTest(); };
 
   function submitTest() {
     if (testSubmitted) return;
