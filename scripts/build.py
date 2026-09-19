@@ -45,9 +45,9 @@ def replace_urls(text):
     def img_replacer(match):
         url = match.group(1)
         if url.startswith('images/'):
-            return "[IMG:" + url + "]"
-        return "[IMG:" + to_local_url(url) + "]"
-    text = re.sub(r"\[IMG:(https?://[^\]]+)\]", img_replacer, text)
+            return "<img src='" + url + "' style='max-height:60px'>"
+        return "<img src='" + to_local_url(url) + "' style='max-height:60px'>"
+    text = re.sub(r"\[IMG:([^\]]+)\]", img_replacer, text)
     text = text.replace('http://cat.fundamakers.com', 'https://qna.fundamakers.com')
     text = text.replace('http://qna.fundamakers.com', 'https://qna.fundamakers.com')
     return text

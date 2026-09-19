@@ -5737,7 +5737,7 @@
     "topic": "Time, Speed, Distance & Work",
     "year": "2024",
     "text": "Three circles of equal radii touch (but not cross) each other externally. Two other circles, X\\\">X and Y\\\">Y, are drawn such that both touch (but not cross) each of the three previous circles. If the radius of X\\\">X is more than that of Y\\\">Y, the ratio of the radii of X\\\">X and Y\\\">Y is",
-    "options_raw": "[\"A : [IMG:images/question_images_4617_answer_16853_11RK5CYII=1.png]\",\"B : [IMG:images/question_images_4617_answer_16854_11RK5CYII=1.png]\",\"C : [IMG:images/question_images_4617_answer_16855_11TkSuQmCC1.png]\",\"D : [IMG:images/question_images_4617_answer_16856_11rkJgggEQ1.png]\"]",
+    "options_raw": "[\"A : <img src='images/question_images_4617_answer_16853_11RK5CYII=1.png' style='max-height:60px'>\",\"B : <img src='images/question_images_4617_answer_16854_11RK5CYII=1.png' style='max-height:60px'>\",\"C : <img src='images/question_images_4617_answer_16855_11TkSuQmCC1.png' style='max-height:60px'>\",\"D : <img src='images/question_images_4617_answer_16856_11rkJgggEQ1.png' style='max-height:60px'>\"]",
     "correct": "C",
     "id": 522
   },
@@ -5781,7 +5781,7 @@
     "topic": "Time, Speed, Distance & Work",
     "year": "2023",
     "text": "<img src='images/question_images_4422_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
-    "options_raw": "[\"A : [IMG:images/question_images_4422_answer_16295_1RK5CYII=1.png]\",\"B : [IMG:images/question_images_4422_answer_16296_1RK5CYII=1.png]\",\"C : [IMG:images/question_images_4422_answer_16297_1TkSuQmCC1.png]\",\"D : [IMG:images/question_images_4422_answer_16298_1RK5CYII=1.png]\"]",
+    "options_raw": "[\"A : <img src='images/question_images_4422_answer_16295_1RK5CYII=1.png' style='max-height:60px'>\",\"B : <img src='images/question_images_4422_answer_16296_1RK5CYII=1.png' style='max-height:60px'>\",\"C : <img src='images/question_images_4422_answer_16297_1TkSuQmCC1.png' style='max-height:60px'>\",\"D : <img src='images/question_images_4422_answer_16298_1RK5CYII=1.png' style='max-height:60px'>\"]",
     "correct": "B",
     "id": 526
   },
@@ -5891,7 +5891,7 @@
     "topic": "Time, Speed, Distance & Work",
     "year": "2022",
     "text": "<img src='images/question_images_4257_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
-    "options_raw": "[\"A : 2\",\"B : [IMG:images/question_images_4257_answer_15848_1rkJgggEQ1.png]\",\"C : -2\",\"D : [IMG:images/question_images_4257_answer_15850_1TkSuQmCC1.png]\"]",
+    "options_raw": "[\"A : 2\",\"B : <img src='images/question_images_4257_answer_15848_1rkJgggEQ1.png' style='max-height:60px'>\",\"C : -2\",\"D : <img src='images/question_images_4257_answer_15850_1TkSuQmCC1.png' style='max-height:60px'>\"]",
     "correct": "A",
     "id": 536
   },
@@ -6716,7 +6716,7 @@
     "topic": "Time, Speed, Distance & Work",
     "year": "2003",
     "text": "Let the radius of each circular park be r, and the distances to be traversed by the sprinters A, B and C be a,b and c, respectively. Which of the following is true?",
-    "options_raw": "[\"A : [IMG:images/question_images_3286_answer_12322_RK5CYII=1.png]\",\"B : [IMG:images/question_images_3286_answer_12323_TkSuQmCC1.png]\",\"C : [IMG:images/question_images_3286_answer_12324_rkJgggEQ1.png]\",\"D : [IMG:images/question_images_3286_answer_12325_rkJgggEQ1.png]\"]",
+    "options_raw": "[\"A : <img src='images/question_images_3286_answer_12322_RK5CYII=1.png' style='max-height:60px'>\",\"B : <img src='images/question_images_3286_answer_12323_TkSuQmCC1.png' style='max-height:60px'>\",\"C : <img src='images/question_images_3286_answer_12324_rkJgggEQ1.png' style='max-height:60px'>\",\"D : <img src='images/question_images_3286_answer_12325_rkJgggEQ1.png' style='max-height:60px'>\"]",
     "correct": "A",
     "id": 611
   },
@@ -6749,7 +6749,7 @@
     "topic": "Time, Speed, Distance & Work",
     "year": "2003",
     "text": "Two straight roads R1 and R2 diverge from a point A at an angle of 120°. Ram starts walking from point A along R1 at a uniform speed of 3 km/hr. Shyam starts walking at the same time from A along R2 at a uniform speed of 2 km/h. They continue walking for 4 hours along their respective roads and reach points B and C on R1 and R2 , respectively. There is a straight line path connecting B and C. Then Ram returns to point A after walking along the line segments BC and CA. Shyam also returns to A after walking along line segments CB and BA. Their speeds remain unchanged. The time interval (in hours) between Ram’s and shyam’s return to the point A is",
-    "options_raw": "[\"A : [IMG:images/question_images_3289_answer_12334_RK5CYII=1.png]\",\"B : [IMG:images/question_images_3289_answer_12335_RK5CYII=1.png]\",\"C : [IMG:images/question_images_3289_answer_12336_TkSuQmCC1.png]\",\"D : [IMG:images/question_images_3289_answer_12337_RK5CYII=1.png]\"]",
+    "options_raw": "[\"A : <img src='images/question_images_3289_answer_12334_RK5CYII=1.png' style='max-height:60px'>\",\"B : <img src='images/question_images_3289_answer_12335_RK5CYII=1.png' style='max-height:60px'>\",\"C : <img src='images/question_images_3289_answer_12336_TkSuQmCC1.png' style='max-height:60px'>\",\"D : <img src='images/question_images_3289_answer_12337_RK5CYII=1.png' style='max-height:60px'>\"]",
     "correct": "B",
     "id": 614
   },
