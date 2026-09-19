@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "669 CAT Quant Practice Questions from Past Papers with filters, bookmarks, and keyboard shortcuts",
   "scripts": {
-    "build": "python scripts/build.py",
     "dev": "python -m http.server 3000"
   },
   "keywords": ["CAT", "Quant", "MBA", "Practice", "Questions"],

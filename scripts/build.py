@@ -34,18 +34,24 @@ for q in all_q:
 
 BS = chr(92)
 
+def fix_local_path(url):
+    """Fix image paths: images/question_images/XXXX -> images/question_images_XXXX"""
+    if url.startswith('images/question_images/'):
+        url = 'images/question_images_' + url[len('images/question_images/'):]
+    return url
+
 def replace_urls(text):
     """Replace all remote image URLs with local paths."""
     def src_replacer(match):
         url = match.group(1)
         if url.startswith('images/'):
-            return "src='" + url + "'"
+            return "src='" + fix_local_path(url) + "'"
         return "src='" + to_local_url(url) + "'"
     text = re.sub(r"src='([^']+)'", src_replacer, text)
     def img_replacer(match):
         url = match.group(1)
         if url.startswith('images/'):
-            return "<img src='" + url + "' loading='lazy' style='max-height:60px'>"
+            return "<img src='" + fix_local_path(url) + "' loading='lazy' style='max-height:60px'>"
         return "<img src='" + to_local_url(url) + "' loading='lazy' style='max-height:60px'>"
     text = re.sub(r"\[IMG:([^\]]+)\]", img_replacer, text)
     text = text.replace('http://cat.fundamakers.com', 'https://qna.fundamakers.com')
