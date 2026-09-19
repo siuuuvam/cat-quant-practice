@@ -107,9 +107,9 @@
     .q-card.topic-tsd{border-left-color:#f87171}
     .q-card .skeleton{background:linear-gradient(90deg,var(--bg-muted) 25%,var(--bg-surface) 50%,var(--bg-muted) 75%);background-size:200% 100%;animation:shimmer 1.5s infinite;border-radius:6px}
     @keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
-    .q-header{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;border-bottom:1px solid var(--border-subtle);flex-wrap:wrap;gap:6px}
+    .q-header{display:flex;justify-content:space-between;align-items:center;padding:14px 20px;border-bottom:1px solid var(--border-subtle);flex-wrap:wrap;gap:6px}
     .q-meta{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
-    .q-number{font-size:11px;font-weight:800;color:var(--text-primary);background:var(--bg-muted);padding:2px 7px;border-radius:4px}
+    .q-number{font-size:12px;font-weight:800;color:var(--text-primary);background:var(--bg-muted);padding:3px 8px;border-radius:4px}
     .q-exam-pill{background:var(--accent-dim);color:var(--accent-bright);font-size:10px;font-weight:600;padding:2px 7px;border-radius:4px}
     .q-type-pill{font-size:9px;font-weight:700;padding:2px 5px;border-radius:3px;letter-spacing:.3px}
     .q-type-pill.mcq{background:rgba(96,165,250,.12);color:var(--blue)}
@@ -128,39 +128,46 @@
     .timer-btn-sm{background:transparent;border:none;color:var(--text-tertiary);cursor:pointer;font-size:10px;padding:2px;display:flex;align-items:center}
     .timer-btn-sm:hover{color:var(--text-primary)}
     .timer-btn-sm.active{color:var(--red)}
-    .q-body{padding:14px 16px;font-size:13px;color:var(--text-secondary);line-height:1.7}
-    .q-body p{font-weight:500}
-    .q-body img{max-width:100%;height:auto;border-radius:var(--radius-sm);margin-top:6px;border:1px solid var(--border-subtle)}
+    .q-body{padding:24px 28px;font-size:16px;color:#e4e4e7;line-height:1.85}
+    .q-body p{font-weight:500;color:#fafafa}
+    .q-body img{max-width:100%;height:auto;border-radius:var(--radius-sm);margin-top:8px;border:1px solid var(--border-subtle)}
     .img-fallback{padding:8px;background:rgba(245,158,11,.08);border:1px dashed rgba(245,158,11,.3);border-radius:6px;color:var(--amber);font-size:11px;text-align:center;margin:4px 0}
-    .options-grid{display:grid;grid-template-columns:1fr;gap:5px;padding:0 16px 12px}
+    .options-grid{display:grid;grid-template-columns:1fr;gap:8px;padding:0 28px 20px}
     @media(min-width:768px){.options-grid{grid-template-columns:1fr 1fr}}
-    .option-btn{background:var(--bg-primary);border:1px solid var(--border-default);border-radius:var(--radius-sm);padding:8px 10px;text-align:left;color:var(--text-secondary);font-size:12px;font-weight:500;font-family:inherit;cursor:pointer;transition:all .15s;display:flex;align-items:center;justify-content:space-between;gap:5px}
+    .option-btn{background:var(--bg-primary);border:1px solid var(--border-default);border-radius:var(--radius-sm);padding:12px 14px;text-align:left;color:var(--text-secondary);font-size:14px;font-weight:500;font-family:inherit;cursor:pointer;transition:all .15s;display:flex;align-items:center;justify-content:space-between;gap:8px}
     .option-btn:hover:not(.disabled):not(.correct-choice):not(.incorrect-choice){border-color:var(--accent);color:var(--text-primary)}
     .option-btn.correct-choice{background:var(--green-dim)!important;border-color:rgba(52,211,153,.3)!important;color:var(--green)!important;font-weight:600}
     .option-btn.incorrect-choice{background:var(--red-dim)!important;border-color:rgba(248,113,113,.3)!important;color:var(--red)!important}
     .option-btn.disabled{opacity:.45;cursor:default}
-    .option-btn i{font-size:11px;flex-shrink:0}
-    .tita-wrap{display:flex;gap:6px;max-width:340px;padding:0 16px 12px}
-    .tita-input{flex:1;background:var(--bg-primary);border:1px solid var(--border-default);padding:7px 10px;border-radius:var(--radius-sm);color:var(--text-primary);font-size:12px;font-family:inherit;outline:none}
+    .option-btn i{font-size:12px;flex-shrink:0}
+    .tita-wrap{display:flex;gap:8px;max-width:380px;padding:0 28px 20px}
+    .tita-input{flex:1;background:var(--bg-primary);border:1px solid var(--border-default);padding:10px 14px;border-radius:var(--radius-sm);color:var(--text-primary);font-size:14px;font-family:inherit;outline:none}
     .tita-input:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-dim)}
-    .submit-btn{background:var(--accent);color:#fff;border:none;padding:7px 14px;border-radius:var(--radius-sm);font-weight:700;font-size:11px;font-family:inherit;cursor:pointer}
+    .submit-btn{background:var(--accent);color:#fff;border:none;padding:10px 18px;border-radius:var(--radius-sm);font-weight:700;font-size:12px;font-family:inherit;cursor:pointer}
     .submit-btn:hover{background:#6366f1}
-    .q-footer{display:flex;justify-content:space-between;align-items:center;padding:10px 16px;border-top:1px solid var(--border-subtle);background:rgba(0,0,0,.1)}
-    .q-footer-left{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
-    .btn-sm{background:transparent;border:1px solid var(--border-default);color:var(--text-tertiary);padding:4px 10px;border-radius:var(--radius-sm);font-size:11px;font-weight:600;font-family:inherit;cursor:pointer;display:inline-flex;align-items:center;gap:4px;transition:all .15s}
+    .q-footer{display:flex;justify-content:space-between;align-items:center;padding:14px 28px;border-top:1px solid var(--border-subtle);background:rgba(0,0,0,.1)}
+    .q-footer-left{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+    .btn-sm{background:transparent;border:1px solid var(--border-default);color:var(--text-tertiary);padding:6px 12px;border-radius:var(--radius-sm);font-size:11px;font-weight:600;font-family:inherit;cursor:pointer;display:inline-flex;align-items:center;gap:4px;transition:all .15s}
     .btn-sm:hover{color:var(--text-primary);border-color:var(--border-hover)}
     .btn-sm.redo-btn{border-color:rgba(248,113,113,.25);color:var(--red)}
     .btn-sm.redo-btn:hover{background:var(--red-dim);border-color:rgba(248,113,113,.4)}
     .btn-sm.copy-btn{border-color:rgba(96,165,250,.25);color:var(--blue)}
     .btn-sm.copy-btn:hover{background:rgba(96,165,250,.08);border-color:rgba(96,165,250,.4)}
     .btn-sm.copy-btn.copied{color:var(--green);border-color:rgba(52,211,153,.3)}
-    .solution-box{display:none;margin:0 16px 12px;background:rgba(129,140,248,.04);border:1px solid rgba(129,140,248,.12);border-radius:var(--radius-md);padding:12px 14px;font-size:12px;color:var(--text-secondary);line-height:1.7}
+    .solution-box{display:none;margin:0 28px 20px;background:rgba(129,140,248,.04);border:1px solid rgba(129,140,248,.12);border-radius:var(--radius-md);padding:16px 18px;font-size:14px;color:var(--text-secondary);line-height:1.7}
     .solution-box.show{display:block}
     .solution-box strong{color:var(--accent-bright)}
-    .status-badge{font-size:11px;font-weight:700;display:inline-flex;align-items:center;gap:3px}
+    .status-badge{font-size:12px;font-weight:700;display:inline-flex;align-items:center;gap:4px}
     .status-badge.correct{color:var(--green)}
     .status-badge.incorrect{color:var(--red)}
     .redo-banner{background:var(--red-dim);border:1px solid rgba(248,113,113,.2);border-radius:var(--radius-sm);padding:8px 14px;font-size:12px;color:var(--red);font-weight:600;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+    .q-nav{display:flex;justify-content:space-between;align-items:center;padding:16px 28px;border-top:1px solid var(--border-subtle);background:rgba(0,0,0,.05)}
+    .q-nav-btn{display:flex;align-items:center;gap:6px;padding:10px 20px;border-radius:var(--radius-sm);font-size:13px;font-weight:700;font-family:inherit;cursor:pointer;transition:all .15s;border:1px solid var(--border-default);background:var(--bg-primary);color:var(--text-secondary)}
+    .q-nav-btn:hover:not(:disabled){border-color:var(--accent);color:var(--text-primary);background:var(--accent-dim)}
+    .q-nav-btn:disabled{opacity:.3;cursor:not-allowed}
+    .q-nav-btn.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+    .q-nav-btn.primary:hover:not(:disabled){background:#6366f1;border-color:#6366f1}
+    .q-nav-counter{font-size:12px;color:var(--text-tertiary);font-weight:600}
     ::-webkit-scrollbar{width:5px}
     ::-webkit-scrollbar-track{background:transparent}
     ::-webkit-scrollbar-thumb{background:var(--bg-muted);border-radius:3px}
@@ -172,15 +179,18 @@
       .filter-pills{display:flex;gap:4px;overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding-bottom:4px}
       .filter-pills::-webkit-scrollbar{display:none}
       .pill{flex-shrink:0;min-height:36px;padding:6px 12px}
-      .q-header{padding:10px 12px}
-      .q-body{padding:10px 12px;font-size:12px}
+      .q-header{padding:12px 16px}
+      .q-body{padding:16px 18px;font-size:14px}
       .q-body img{max-width:100%;height:auto}
-      .options-grid{padding:0 12px 10px;gap:4px}
-      .option-btn{padding:10px 10px;font-size:11px;min-height:44px}
-      .tita-wrap{padding:0 12px 10px}
-      .q-footer{padding:8px 12px;flex-wrap:wrap;gap:6px}
+      .options-grid{padding:0 16px 14px;gap:6px}
+      .option-btn{padding:10px 12px;font-size:13px;min-height:44px}
+      .tita-wrap{padding:0 16px 14px}
+      .q-footer{padding:10px 16px;flex-wrap:wrap;gap:6px}
       .q-footer-left{gap:4px}
-      .btn-sm{padding:5px 10px;font-size:10px;min-height:36px}
+      .btn-sm{padding:6px 12px;font-size:10px;min-height:36px}
+      .q-nav{padding:12px 16px}
+      .q-nav-btn{padding:8px 14px;font-size:12px}
+      .solution-box{margin:0 16px 14px;font-size:12px}
       .sidebar{display:none;position:fixed;top:64px;right:0;bottom:0;width:300px;z-index:150;background:var(--bg-elevated);border-left:1px solid var(--border-subtle);box-shadow:-4px 0 20px rgba(0,0,0,.3)}
       .sidebar.open{display:flex}
       .sidebar-toggle{display:flex;align-items:center;justify-content:center}
@@ -191,7 +201,6 @@
       .h-stat-val{font-size:12px}
       .q-exam-pill{font-size:9px}
       .q-number{font-size:10px}
-      .solution-box{margin:0 12px 10px;font-size:11px}
       body{padding-bottom:70px}
     }
     @media(max-width:480px){
@@ -301,6 +310,12 @@
       </div>
 
       <div class="questions-list" id="questionsContainer"></div>
+
+      <div class="q-nav" id="questionNav" style="display:none">
+        <button class="q-nav-btn" id="prevBtn" onclick="navigateQuestion(-1)"><i class="fa-solid fa-chevron-left"></i> Prev</button>
+        <span class="q-nav-counter" id="navCounter">1 / 1</span>
+        <button class="q-nav-btn primary" id="nextBtn" onclick="navigateQuestion(1)">Next <i class="fa-solid fa-chevron-right"></i></button>
+      </div>
     </div>
 
     <aside class="sidebar" id="sidebar">
@@ -1027,9 +1042,9 @@
     var globalTimeLeft = 2400;
     var globalTimerInterval = null;
     var redoMode = false;
-    var renderedCards = {};
-    var observer = null;
     var currentSidebarStatus = 'all';
+    var filteredQuestions = [];
+    var currentQuestionIdx = 0;
 
     function saveProgress() {
       try {
@@ -1057,7 +1072,6 @@
 
     function init() {
       loadProgress();
-      setupObserver();
       applyFilters();
       updateStats();
       searchInput.addEventListener('input', function(e) {
@@ -1065,28 +1079,6 @@
         applyFilters();
       });
       document.addEventListener('keydown', handleKeyboard);
-      var scrollTick = false;
-    window.addEventListener('scroll', function() {
-      if (!scrollTick) {
-        requestAnimationFrame(function() { updateSidebarHighlight(); scrollTick = false; });
-        scrollTick = true;
-      }
-    });
-    }
-
-    function setupObserver() {
-      observer = new IntersectionObserver(function(entries) {
-        for (var i = 0; i < entries.length; i++) {
-          if (entries[i].isIntersecting) {
-            var card = entries[i].target;
-            var qid = card.getAttribute('data-qid');
-            if (qid && !renderedCards[qid]) {
-              renderCard(card, parseInt(qid));
-              renderedCards[qid] = true;
-            }
-          }
-        }
-      }, { rootMargin: '300px' });
     }
 
     function getTopicClass(topic) {
@@ -1103,7 +1095,7 @@
     }
 
     function applyFilters() {
-      var filtered = [];
+      filteredQuestions = [];
       for (var i = 0; i < questionsData.length; i++) {
         var q = questionsData[i];
         if (currentTopic !== 'all' && q.topic !== currentTopic) continue;
@@ -1115,6 +1107,7 @@
         if (currentType === 'correct' && (userAnswers[q.id] === undefined || !userAnswers[q.id].isCorrect)) continue;
         if (currentType === 'incorrect' && (userAnswers[q.id] === undefined || userAnswers[q.id].isCorrect)) continue;
         if (currentType === 'bookmarked' && !bookmarks[q.id]) continue;
+        if (currentSidebarStatus === 'todo' && userAnswers[q.id] !== undefined) continue;
         if (currentSidebarStatus === 'correct' && (userAnswers[q.id] === undefined || !userAnswers[q.id].isCorrect)) continue;
         if (currentSidebarStatus === 'wrong' && (userAnswers[q.id] === undefined || userAnswers[q.id].isCorrect)) continue;
         if (currentSidebarStatus === 'bookmarked' && !bookmarks[q.id]) continue;
@@ -1122,40 +1115,28 @@
           var text = (q.text + ' ' + q.meta + ' ' + q.topic + ' ' + q.year).toLowerCase();
           if (text.indexOf(currentQuery) === -1) continue;
         }
-        filtered.push(q);
+        filteredQuestions.push(q);
       }
-      renderedCards = {};
-      renderQuestions(filtered);
-      renderSidebar(filtered);
+      if (currentQuestionIdx >= filteredQuestions.length) currentQuestionIdx = Math.max(0, filteredQuestions.length - 1);
+      renderCurrentQuestion();
+      renderSidebar(filteredQuestions);
       updateSidebarProgress();
+      updateNavButtons();
     }
 
-    function renderQuestions(data) {
+    function renderCurrentQuestion() {
       questionsContainer.innerHTML = '';
-      if (data.length === 0) {
+      var nav = document.getElementById('questionNav');
+      if (filteredQuestions.length === 0) {
         questionsContainer.innerHTML = '<div style="text-align:center;padding:60px 40px;color:var(--text-tertiary)"><i class="fa-regular fa-folder-open" style="font-size:28px;margin-bottom:10px;display:block;opacity:.4"></i>No questions match.</div>';
+        nav.style.display = 'none';
         return;
       }
-      for (var i = 0; i < data.length; i++) {
-        var q = data[i];
-        var card = document.createElement('div');
-        var tc = getTopicClass(q.topic);
-        card.className = 'q-card topic-' + tc;
-        card.id = 'q-card-' + q.id;
-        card.setAttribute('data-qid', q.id);
-        card.innerHTML = '<div class="q-header"><div class="q-meta"><span class="q-number">Q' + q.id + '</span><span class="q-exam-pill">' + q.meta + '</span><span class="q-type-pill ' + (q.type === 'MCQ' ? 'mcq' : 'tita') + '">' + q.type + '</span><span class="q-topic-tag ' + tc + '">' + getTopicShort(q.topic) + '</span></div><div class="q-actions"><button class="q-action-btn' + (bookmarks[q.id] ? ' bookmarked' : '') + '" onclick="toggleBookmark(' + q.id + ')" title="Bookmark"><i class="fa-' + (bookmarks[q.id] ? 'solid' : 'regular') + ' fa-star"></i></button><div class="q-timer-box"><span class="timer-sm" id="timer-' + q.id + '">00:00</span><button class="timer-btn-sm" id="timer-btn-' + q.id + '" onclick="toggleTimer(' + q.id + ')"><i class="fa-solid fa-play"></i></button><button class="timer-btn-sm" onclick="resetTimer(' + q.id + ')"><i class="fa-solid fa-rotate-right"></i></button></div></div></div><div class="q-body"><div class="skeleton" style="height:60px;margin-bottom:8px"></div><div class="skeleton" style="height:20px;width:80%"></div></div>';
-        questionsContainer.appendChild(card);
-        observer.observe(card);
-      }
-    }
-
-    function renderCard(card, qId) {
-      var q = null;
-      for (var i = 0; i < questionsData.length; i++) { if (questionsData[i].id === qId) { q = questionsData[i]; break; } }
-      if (!q) return;
+      nav.style.display = 'flex';
+      var q = filteredQuestions[currentQuestionIdx];
       var tc = getTopicClass(q.topic);
       var isAnswered = userAnswers[q.id] !== undefined;
-       var isCorrect = isAnswered && userAnswers[q.id].isCorrect;
+      var isCorrect = isAnswered && userAnswers[q.id].isCorrect;
       var typeClass = q.type === 'MCQ' ? 'mcq' : 'tita';
       var optionsHTML = '';
       if (q.type === 'MCQ' && q.options) {
@@ -1189,7 +1170,12 @@
         }
       }
       var redoBtnHTML = isAnswered ? '<button class="btn-sm redo-btn" onclick="redoQuestion(' + q.id + ')"><i class="fa-solid fa-rotate-right"></i> Redo</button>' : '';
+      var card = document.createElement('div');
+      card.className = 'q-card topic-' + tc;
+      card.id = 'q-card-' + q.id;
+      card.setAttribute('data-qid', q.id);
       card.innerHTML = '<div class="q-header"><div class="q-meta"><span class="q-number">Q' + q.id + '</span><span class="q-exam-pill">' + q.meta + '</span><span class="q-type-pill ' + typeClass + '">' + q.type + '</span><span class="q-topic-tag ' + tc + '">' + getTopicShort(q.topic) + '</span></div><div class="q-actions"><button class="q-action-btn' + (bookmarks[q.id] ? ' bookmarked' : '') + '" onclick="toggleBookmark(' + q.id + ')" title="Bookmark"><i class="fa-' + (bookmarks[q.id] ? 'solid' : 'regular') + ' fa-star"></i></button><div class="q-timer-box"><span class="timer-sm" id="timer-' + q.id + '">00:00</span><button class="timer-btn-sm" id="timer-btn-' + q.id + '" onclick="toggleTimer(' + q.id + ')"><i class="fa-solid fa-play"></i></button><button class="timer-btn-sm" onclick="resetTimer(' + q.id + ')"><i class="fa-solid fa-rotate-right"></i></button></div></div></div><div class="q-body"><p>' + q.text + '</p></div>' + optionsHTML + '<div class="q-footer"><div class="q-footer-left"><button class="btn-sm" onclick="toggleSolution(' + q.id + ')"><i class="fa-regular fa-lightbulb"></i> Solution</button>' + redoBtnHTML + '<button class="btn-sm copy-btn" onclick="copyQuestion(' + q.id + ',this)"><i class="fa-regular fa-copy"></i> Copy</button></div><div id="status-' + q.id + '">' + statusHTML + '</div></div><div class="solution-box" id="solution-' + q.id + '"><strong>Correct Answer:</strong> ' + q.correct + ' &mdash; ' + correctDisplay + '</div>';
+      questionsContainer.appendChild(card);
       var imgs = card.querySelectorAll('img');
       for (var im = 0; im < imgs.length; im++) {
         imgs[im].loading = 'lazy';
@@ -1207,6 +1193,36 @@
         };
       }
       if (timeElapsed[q.id]) { var te = document.getElementById('timer-' + q.id); if (te) te.innerText = formatTime(timeElapsed[q.id]); }
+      updateNavButtons();
+    }
+
+    function navigateQuestion(dir) {
+      var newIdx = currentQuestionIdx + dir;
+      if (newIdx < 0 || newIdx >= filteredQuestions.length) return;
+      currentQuestionIdx = newIdx;
+      renderCurrentQuestion();
+      var q = filteredQuestions[currentQuestionIdx];
+      var gridItem = document.querySelector('.sb-grid-item[data-qid="' + q.id + '"]');
+      if (gridItem) gridItem.scrollIntoView({block:'nearest'});
+    }
+
+    function goToQuestion(qId) {
+      for (var i = 0; i < filteredQuestions.length; i++) {
+        if (filteredQuestions[i].id === qId) {
+          currentQuestionIdx = i;
+          renderCurrentQuestion();
+          break;
+        }
+      }
+    }
+
+    function updateNavButtons() {
+      var prev = document.getElementById('prevBtn');
+      var next = document.getElementById('nextBtn');
+      var counter = document.getElementById('navCounter');
+      if (prev) prev.disabled = currentQuestionIdx <= 0;
+      if (next) next.disabled = currentQuestionIdx >= filteredQuestions.length - 1;
+      if (counter) counter.textContent = (filteredQuestions.length > 0 ? (currentQuestionIdx + 1) : 0) + ' / ' + filteredQuestions.length;
     }
 
     function toggleTimer(id) {
@@ -1271,8 +1287,6 @@
       if (!userAnswers[qId]) return;
       delete userAnswers[qId];
       saveProgress(); updateStats(); rerenderCard(qId); updateSidebarItem(qId); updateSidebarProgress();
-      var el = document.getElementById('q-card-' + qId);
-      if (el) el.scrollIntoView({behavior:'smooth',block:'center'});
     }
     function toggleSolution(id) { var el = document.getElementById('solution-' + id); if (el) el.classList.toggle('show'); }
     function toggleBookmark(qId) {
@@ -1322,8 +1336,7 @@
     }
 
     function rerenderCard(qId) {
-      var card = document.getElementById('q-card-' + qId);
-      if (card) { renderedCards[qId] = false; renderCard(card, qId); renderedCards[qId] = true; }
+      renderCurrentQuestion();
     }
 
     function updateStats() {
@@ -1407,8 +1420,7 @@
         if (bookmarks[q.id]) div.classList.add('bookmarked');
         div.onclick = (function(qid) {
           return function() {
-            var el = document.getElementById('q-card-' + qid);
-            if (el) el.scrollIntoView({behavior:'smooth',block:'center'});
+            goToQuestion(qid);
             var items = document.querySelectorAll('.sb-grid-item');
             for (var k = 0; k < items.length; k++) items[k].classList.remove('active');
             this.classList.add('active');
@@ -1457,25 +1469,6 @@
         items[i].style.display = text.indexOf(q) !== -1 ? '' : 'none';
       }
     }
-    function updateSidebarHighlight() {
-      var cards = document.querySelectorAll('.q-card');
-      var activeId = null;
-      for (var i = 0; i < cards.length; i++) {
-        var rect = cards[i].getBoundingClientRect();
-        if (rect.top >= -100 && rect.top < window.innerHeight * 0.4) {
-          activeId = cards[i].getAttribute('data-qid');
-          break;
-        }
-      }
-      var items = document.querySelectorAll('.sb-grid-item');
-      for (var j = 0; j < items.length; j++) {
-        items[j].classList.remove('active');
-        if (activeId && items[j].getAttribute('data-qid') === activeId) {
-          items[j].classList.add('active');
-          items[j].scrollIntoView({block:'nearest'});
-        }
-      }
-    }
     function toggleSidebar() {
       document.getElementById('sidebar').classList.toggle('open');
     }
@@ -1512,32 +1505,19 @@
       if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
       var key = e.key.toUpperCase();
       if (['A','B','C','D'].indexOf(key) !== -1) {
-        var cards = document.querySelectorAll('.q-card');
-        for (var i = 0; i < cards.length; i++) {
-          var rect = cards[i].getBoundingClientRect();
-          if (rect.top >= -50 && rect.top < window.innerHeight * 0.5) {
-            var qId = parseInt(cards[i].getAttribute('data-qid'));
-            var btns = cards[i].querySelectorAll('.option-btn');
-            for (var j = 0; j < btns.length; j++) {
-              if (btns[j].textContent.trim().charAt(0) === key) { btns[j].click(); break; }
-            }
-            break;
-          }
+        if (filteredQuestions.length === 0) return;
+        var q = filteredQuestions[currentQuestionIdx];
+        var btns = document.querySelectorAll('.option-btn');
+        for (var j = 0; j < btns.length; j++) {
+          if (btns[j].textContent.trim().charAt(0) === key) { btns[j].click(); break; }
         }
       } else if (key === 'S') {
-        var cards2 = document.querySelectorAll('.q-card');
-        for (var k = 0; k < cards2.length; k++) {
-          var r = cards2[k].getBoundingClientRect();
-          if (r.top >= -50 && r.top < window.innerHeight * 0.5) {
-            toggleSolution(parseInt(cards2[k].getAttribute('data-qid'))); break;
-          }
-        }
+        if (filteredQuestions.length === 0) return;
+        toggleSolution(filteredQuestions[currentQuestionIdx].id);
       } else if (key === 'N' || key === 'ARROWRIGHT') {
-        var all = document.querySelectorAll('.q-card');
-        for (var m = 0; m < all.length; m++) {
-          var qid = parseInt(all[m].getAttribute('data-qid'));
-          if (!userAnswers[qid]) { all[m].scrollIntoView({behavior:'smooth',block:'center'}); break; }
-        }
+        navigateQuestion(1);
+      } else if (key === 'P' || key === 'ARROWLEFT') {
+        navigateQuestion(-1);
       }
     }
 
