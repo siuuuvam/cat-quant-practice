@@ -40,46 +40,49 @@
     .sidebar-toggle{display:none;position:fixed;bottom:20px;right:20px;z-index:200;width:48px;height:48px;border-radius:50%;background:var(--accent);color:#fff;border:none;font-size:18px;cursor:pointer;box-shadow:0 4px 16px rgba(129,140,248,.4);transition:transform .2s}
     .sidebar-toggle:hover{transform:scale(1.05)}
 
-    .sidebar{width:260px;flex-shrink:0;background:var(--bg-elevated);border-left:1px solid var(--border-subtle);height:calc(100vh - 64px);position:sticky;top:64px;overflow-y:auto;display:flex;flex-direction:column}
+    .sidebar{width:280px;flex-shrink:0;background:var(--bg-elevated);border-left:1px solid var(--border-subtle);height:calc(100vh - 64px);position:sticky;top:64px;overflow-y:auto;display:flex;flex-direction:column}
     .sidebar::-webkit-scrollbar{width:4px}
     .sidebar::-webkit-scrollbar-thumb{background:var(--bg-muted);border-radius:2px}
-    .sb-header{padding:16px 16px 12px;border-bottom:1px solid var(--border-subtle)}
+    .sb-header{padding:14px 16px 10px;border-bottom:1px solid var(--border-subtle)}
     .sb-title{font-size:13px;font-weight:800;color:var(--text-primary);margin-bottom:10px;display:flex;align-items:center;gap:8px}
     .sb-title i{color:var(--accent);font-size:12px}
     .sb-search{position:relative}
     .sb-search i{position:absolute;left:10px;top:50%;transform:translateY(-50%);color:var(--text-tertiary);font-size:11px}
     .sb-search input{width:100%;background:var(--bg-primary);border:1px solid var(--border-default);padding:7px 10px 7px 30px;border-radius:var(--radius-sm);color:var(--text-primary);font-size:12px;font-family:inherit;outline:none;transition:border-color .2s}
     .sb-search input:focus{border-color:var(--accent)}
-    .sb-progress{padding:10px 16px;border-bottom:1px solid var(--border-subtle);display:flex;gap:12px}
-    .sb-prog-item{display:flex;flex-direction:column;align-items:center;flex:1;cursor:pointer;padding:6px 4px;border-radius:6px;transition:all .15s;border:1px solid transparent}
-    .sb-prog-item:hover{background:var(--bg-muted)}
-    .sb-prog-item.active-stat{border-color:var(--accent);background:var(--accent-dim)}
-    .sb-prog-val{font-size:14px;font-weight:800}
-    .sb-prog-val.green{color:var(--green)}
-    .sb-prog-val.red{color:var(--red)}
-    .sb-prog-val.blue{color:var(--accent-bright)}
-    .sb-prog-lbl{font-size:9px;text-transform:uppercase;letter-spacing:.5px;color:var(--text-tertiary);font-weight:600}
-    .sb-section{padding:12px 16px 4px}
-    .sb-section-title{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:var(--text-tertiary);margin-bottom:8px;display:flex;align-items:center;justify-content:space-between}
-    .sb-count{background:var(--bg-muted);padding:1px 6px;border-radius:4px;font-size:10px}
-    .sb-list{list-style:none;padding:0 8px 12px}
-    .sb-item{display:flex;align-items:center;gap:6px;padding:5px 8px;border-radius:6px;cursor:pointer;font-size:12px;color:var(--text-secondary);transition:all .12s;border:1px solid transparent;margin-bottom:2px;border-left:3px solid transparent}
-    .sb-item:hover{background:var(--bg-muted);color:var(--text-primary)}
-    .sb-item.active{background:var(--accent-dim);color:var(--accent-bright);border-color:rgba(129,140,248,.2)}
-    .sb-item.topic-algebra{border-left-color:#818cf8}
-    .sb-item.topic-arith{border-left-color:#34d399}
-    .sb-item.topic-ppl{border-left-color:#f59e0b}
-    .sb-item.topic-tsd{border-left-color:#f87171}
-    .sb-item.answered-correct .sb-num{color:var(--green)}
-    .sb-item.answered-incorrect .sb-num{color:var(--red)}
-    .sb-item.bookmarked .sb-num{color:var(--amber)}
-    .sb-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0}
-    .sb-dot.green{background:var(--green)}
-    .sb-dot.red{background:var(--red)}
-    .sb-dot.amber{background:var(--amber)}
-    .sb-dot.gray{background:var(--bg-muted)}
-    .sb-num{font-weight:700;font-size:11px;min-width:22px;color:var(--text-tertiary)}
-    .sb-label{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1;font-size:11px}
+    .sb-progress-section{padding:12px 16px;border-bottom:1px solid var(--border-subtle)}
+    .sb-progress-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+    .sb-progress-label{font-size:11px;color:var(--text-secondary);font-weight:600}
+    .sb-progress-count{font-size:11px;color:var(--text-tertiary)}
+    .sb-progress-bar{width:100%;height:6px;background:var(--bg-muted);border-radius:3px;overflow:hidden}
+    .sb-progress-fill{height:100%;background:linear-gradient(90deg,var(--accent),#6366f1);border-radius:3px;transition:width .3s ease}
+    .sb-filter-tabs{display:flex;gap:4px;padding:8px 16px;border-bottom:1px solid var(--border-subtle)}
+    .sb-filter-tab{flex:1;padding:6px 4px;border-radius:6px;border:1px solid var(--border-default);background:transparent;color:var(--text-secondary);font-size:10px;font-weight:700;font-family:inherit;cursor:pointer;transition:all .15s;text-align:center;letter-spacing:.3px}
+    .sb-filter-tab:hover{border-color:var(--border-hover);color:var(--text-primary)}
+    .sb-filter-tab.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+    .sb-grid-section{flex:1;overflow-y:auto;padding:12px 16px}
+    .sb-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}
+    .sb-grid-item{aspect-ratio:1;display:flex;align-items:center;justify-content:center;border-radius:6px;font-size:10px;font-weight:700;cursor:pointer;transition:all .15s;border:1px solid var(--border-default);background:var(--bg-primary);color:var(--text-secondary);position:relative}
+    .sb-grid-item:hover{border-color:var(--accent);color:var(--text-primary);transform:scale(1.05)}
+    .sb-grid-item.active{border-color:var(--accent);color:var(--accent-bright);background:var(--accent-dim);box-shadow:0 0 0 2px var(--accent-dim)}
+    .sb-grid-item.correct{background:var(--green-dim);border-color:rgba(52,211,153,.3);color:var(--green)}
+    .sb-grid-item.incorrect{background:var(--red-dim);border-color:rgba(248,113,113,.3);color:var(--red)}
+    .sb-grid-item.bookmarked{background:rgba(245,158,11,.08);border-color:rgba(245,158,11,.3);color:var(--amber)}
+    .sb-grid-item.bookmarked::after{content:'';position:absolute;top:2px;right:2px;width:5px;height:5px;background:var(--amber);border-radius:50%}
+    .sb-grid-item.topic-algebra{border-left:2px solid #818cf8}
+    .sb-grid-item.topic-arith{border-left:2px solid #34d399}
+    .sb-grid-item.topic-ppl{border-left:2px solid #f59e0b}
+    .sb-grid-item.topic-tsd{border-left:2px solid #f87171}
+    .sb-legend{display:flex;gap:8px;padding:8px 16px;border-top:1px solid var(--border-subtle);flex-wrap:wrap}
+    .sb-legend-item{display:flex;align-items:center;gap:4px;font-size:9px;color:var(--text-tertiary)}
+    .sb-legend-dot{width:6px;height:6px;border-radius:2px}
+    .sb-legend-dot.correct{background:var(--green)}
+    .sb-legend-dot.incorrect{background:var(--red)}
+    .sb-legend-dot.bookmarked{background:var(--amber)}
+    .sb-legend-dot.algebra{background:#818cf8}
+    .sb-legend-dot.arith{background:#34d399}
+    .sb-legend-dot.ppl{background:#f59e0b}
+    .sb-legend-dot.tsd{background:#f87171}
 
     .controls{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px;margin-bottom:20px;background:var(--bg-elevated);border:1px solid var(--border-subtle);padding:12px 14px;border-radius:var(--radius-lg)}
     .search-box{position:relative;flex:1;min-width:200px}
@@ -178,7 +181,7 @@
       .q-footer{padding:8px 12px;flex-wrap:wrap;gap:6px}
       .q-footer-left{gap:4px}
       .btn-sm{padding:5px 10px;font-size:10px;min-height:36px}
-      .sidebar{display:none;position:fixed;top:64px;right:0;bottom:0;width:280px;z-index:150;background:var(--bg-elevated);border-left:1px solid var(--border-subtle);box-shadow:-4px 0 20px rgba(0,0,0,.3)}
+      .sidebar{display:none;position:fixed;top:64px;right:0;bottom:0;width:300px;z-index:150;background:var(--bg-elevated);border-left:1px solid var(--border-subtle);box-shadow:-4px 0 20px rgba(0,0,0,.3)}
       .sidebar.open{display:flex}
       .sidebar-toggle{display:flex;align-items:center;justify-content:center}
       .q-topic-tag{font-size:8px;padding:1px 4px}
@@ -308,14 +311,30 @@
           <input type="text" id="sidebarSearch" placeholder="Jump to Q..." oninput="filterSidebar(this.value)">
         </div>
       </div>
-      <div class="sb-progress" id="sidebarProgress">
-        <div class="sb-prog-item" onclick="filterByStatus('all')"><span class="sb-prog-val blue" id="sb-total">0</span><span class="sb-prog-lbl">Total</span></div>
-        <div class="sb-prog-item" onclick="filterByStatus('correct')"><span class="sb-prog-val green" id="sb-correct">0</span><span class="sb-prog-lbl">Correct</span></div>
-        <div class="sb-prog-item" onclick="filterByStatus('wrong')"><span class="sb-prog-val red" id="sb-wrong">0</span><span class="sb-prog-lbl">Wrong</span></div>
-        <div class="sb-prog-item" onclick="filterByStatus('bookmarked')"><span class="sb-prog-val" id="sb-bookmarked" style="color:var(--amber)">0</span><span class="sb-prog-lbl">Saved</span></div>
+      <div class="sb-progress-section">
+        <div class="sb-progress-header">
+          <span class="sb-progress-label">Progress</span>
+          <span class="sb-progress-count" id="sb-progress-text">0 / 0 done</span>
+        </div>
+        <div class="sb-progress-bar"><div class="sb-progress-fill" id="sb-progress-fill" style="width:0%"></div></div>
       </div>
-      <div style="flex:1;overflow-y:auto;padding:8px 0">
-        <ul class="sb-list" id="sidebarList"></ul>
+      <div class="sb-filter-tabs">
+        <button class="sb-filter-tab active" onclick="filterByStatus('all',this)">All</button>
+        <button class="sb-filter-tab" onclick="filterByStatus('todo',this)">To-do</button>
+        <button class="sb-filter-tab" onclick="filterByStatus('wrong',this)">Wrong</button>
+        <button class="sb-filter-tab" onclick="filterByStatus('bookmarked',this)">Saved</button>
+      </div>
+      <div class="sb-grid-section">
+        <div class="sb-grid" id="sidebarGrid"></div>
+      </div>
+      <div class="sb-legend">
+        <div class="sb-legend-item"><span class="sb-legend-dot correct"></span> Correct</div>
+        <div class="sb-legend-item"><span class="sb-legend-dot incorrect"></span> Wrong</div>
+        <div class="sb-legend-item"><span class="sb-legend-dot bookmarked"></span> Saved</div>
+        <div class="sb-legend-item"><span class="sb-legend-dot algebra"></span> Algebra</div>
+        <div class="sb-legend-item"><span class="sb-legend-dot arith"></span> Avg</div>
+        <div class="sb-legend-item"><span class="sb-legend-dot ppl"></span> PPL</div>
+        <div class="sb-legend-item"><span class="sb-legend-dot tsd"></span> TSD</div>
       </div>
     </aside>
   </div>
@@ -1336,14 +1355,11 @@
       if (el) el.classList.add('active');
       applyFilters();
     }
-    function filterByStatus(status) {
+    function filterByStatus(status, el) {
       currentSidebarStatus = status;
-      var items = document.querySelectorAll('.sb-prog-item');
-      for (var i = 0; i < items.length; i++) items[i].classList.remove('active-stat');
-      if (status === 'all') items[0].classList.add('active-stat');
-      else if (status === 'correct') items[1].classList.add('active-stat');
-      else if (status === 'wrong') items[2].classList.add('active-stat');
-      else if (status === 'bookmarked') items[3].classList.add('active-stat');
+      var tabs = document.querySelectorAll('.sb-filter-tab');
+      for (var i = 0; i < tabs.length; i++) tabs[i].classList.remove('active');
+      if (el) el.classList.add('active');
       applyFilters();
     }
     function toggleRedoMode() {
@@ -1371,50 +1387,53 @@
     }
 
     function renderSidebar(data) {
-      var list = document.getElementById('sidebarList');
-      list.innerHTML = '';
-      for (var i = 0; i < data.length; i++) {
-        var q = data[i];
-        var li = document.createElement('li');
+      var grid = document.getElementById('sidebarGrid');
+      grid.innerHTML = '';
+      var allQ = (currentSidebarStatus === 'all') ? questionsData : data;
+      for (var i = 0; i < allQ.length; i++) {
+        var q = allQ[i];
         var tc = getTopicClass(q.topic);
-        li.className = 'sb-item topic-' + tc;
-        li.setAttribute('data-qid', q.id);
-        li.onclick = (function(qid) {
+        var div = document.createElement('div');
+        div.className = 'sb-grid-item topic-' + tc;
+        div.setAttribute('data-qid', q.id);
+        div.textContent = q.id;
+        var isVisible = false;
+        for (var j = 0; j < data.length; j++) { if (data[j].id === q.id) { isVisible = true; break; } }
+        if (!isVisible) div.style.opacity = '0.25';
+        if (userAnswers[q.id]) {
+          if (userAnswers[q.id].isCorrect) div.classList.add('correct');
+          else div.classList.add('incorrect');
+        }
+        if (bookmarks[q.id]) div.classList.add('bookmarked');
+        div.onclick = (function(qid) {
           return function() {
             var el = document.getElementById('q-card-' + qid);
             if (el) el.scrollIntoView({behavior:'smooth',block:'center'});
+            var items = document.querySelectorAll('.sb-grid-item');
+            for (var k = 0; k < items.length; k++) items[k].classList.remove('active');
+            this.classList.add('active');
             if (window.innerWidth <= 768) document.getElementById('sidebar').classList.remove('open');
           };
         })(q.id);
-        var statusIcon = '';
-        if (userAnswers[q.id]) {
-          if (userAnswers[q.id].isCorrect) { li.classList.add('answered-correct'); statusIcon = '<i class="fa-solid fa-check" style="color:var(--green);font-size:9px"></i>'; }
-          else { li.classList.add('answered-incorrect'); statusIcon = '<i class="fa-solid fa-xmark" style="color:var(--red);font-size:9px"></i>'; }
-        } else {
-          statusIcon = '<span style="color:var(--text-tertiary);font-size:9px">—</span>';
-        }
-        if (bookmarks[q.id]) li.classList.add('bookmarked');
-        li.innerHTML = '<span class="sb-num">Q' + q.id + '</span>' + statusIcon;
-        list.appendChild(li);
+        grid.appendChild(div);
       }
     }
     function updateSidebarItem(qId) {
-      var item = document.querySelector('.sb-item[data-qid="' + qId + '"]');
-      if (!item) return;
-      var q = null;
-      for (var i = 0; i < questionsData.length; i++) { if (questionsData[i].id === qId) { q = questionsData[i]; break; } }
-      if (!q) return;
-      var tc = getTopicClass(q.topic);
-      item.className = 'sb-item topic-' + tc;
-      var statusIcon = '';
-      if (userAnswers[qId]) {
-        if (userAnswers[qId].isCorrect) { item.classList.add('answered-correct'); statusIcon = '<i class="fa-solid fa-check" style="color:var(--green);font-size:9px"></i>'; }
-        else { item.classList.add('answered-incorrect'); statusIcon = '<i class="fa-solid fa-xmark" style="color:var(--red);font-size:9px"></i>'; }
-      } else {
-        statusIcon = '<span style="color:var(--text-tertiary);font-size:9px">—</span>';
+      var items = document.querySelectorAll('.sb-grid-item[data-qid="' + qId + '"]');
+      for (var idx = 0; idx < items.length; idx++) {
+        var item = items[idx];
+        var q = null;
+        for (var i = 0; i < questionsData.length; i++) { if (questionsData[i].id === qId) { q = questionsData[i]; break; } }
+        if (!q) return;
+        var tc = getTopicClass(q.topic);
+        item.className = 'sb-grid-item topic-' + tc;
+        item.textContent = q.id;
+        if (userAnswers[qId]) {
+          if (userAnswers[qId].isCorrect) item.classList.add('correct');
+          else item.classList.add('incorrect');
+        }
+        if (bookmarks[qId]) item.classList.add('bookmarked');
       }
-      if (bookmarks[qId]) item.classList.add('bookmarked');
-      item.innerHTML = '<span class="sb-num">Q' + qId + '</span>' + statusIcon;
     }
     function updateSidebarProgress() {
       var total = questionsData.length;
@@ -1425,13 +1444,13 @@
       }
       var bkeys = Object.keys(bookmarks);
       saved = bkeys.length;
-      document.getElementById('sb-total').textContent = total;
-      document.getElementById('sb-correct').textContent = correct;
-      document.getElementById('sb-wrong').textContent = wrong;
-      document.getElementById('sb-bookmarked').textContent = saved;
+      var solved = correct + wrong;
+      var pct = total > 0 ? Math.round((solved / total) * 100) : 0;
+      document.getElementById('sb-progress-text').textContent = solved + ' / ' + total + ' done';
+      document.getElementById('sb-progress-fill').style.width = pct + '%';
     }
     function filterSidebar(query) {
-      var items = document.querySelectorAll('.sb-item');
+      var items = document.querySelectorAll('.sb-grid-item');
       var q = query.toLowerCase();
       for (var i = 0; i < items.length; i++) {
         var text = items[i].textContent.toLowerCase();
@@ -1448,7 +1467,7 @@
           break;
         }
       }
-      var items = document.querySelectorAll('.sb-item');
+      var items = document.querySelectorAll('.sb-grid-item');
       for (var j = 0; j < items.length; j++) {
         items[j].classList.remove('active');
         if (activeId && items[j].getAttribute('data-qid') === activeId) {
