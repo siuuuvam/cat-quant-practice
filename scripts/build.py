@@ -36,15 +36,18 @@ BS = chr(92)
 
 def replace_urls(text):
     """Replace all remote image URLs with local paths."""
-    # Handle src='...' format
     def src_replacer(match):
-        return "src='" + to_local_url(match.group(1)) + "'"
+        url = match.group(1)
+        if url.startswith('images/'):
+            return "src='" + url + "'"
+        return "src='" + to_local_url(url) + "'"
     text = re.sub(r"src='([^']+)'", src_replacer, text)
-    # Handle [IMG:http://...] format
     def img_replacer(match):
-        return "[IMG:" + to_local_url(match.group(1)) + "]"
+        url = match.group(1)
+        if url.startswith('images/'):
+            return "[IMG:" + url + "]"
+        return "[IMG:" + to_local_url(url) + "]"
     text = re.sub(r"\[IMG:(https?://[^\]]+)\]", img_replacer, text)
-    # Also handle bare http:// URLs in options
     text = text.replace('http://cat.fundamakers.com', 'https://qna.fundamakers.com')
     text = text.replace('http://qna.fundamakers.com', 'https://qna.fundamakers.com')
     return text

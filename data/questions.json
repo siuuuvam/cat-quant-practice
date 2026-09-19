@@ -5,7 +5,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2024",
-    "text": "<img src='images/images_question_images_4624_question_11TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4624_question_11TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 2\",\"B : -3\",\"C : -2\",\"D : 3\"]",
     "correct": "B",
     "id": 1
@@ -27,7 +27,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2021",
-    "text": "<img src='images/images_question_images_3651_question_111111TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_3651_question_111111TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 1\",\"B : 4\",\"C : 3\",\"D : 2\"]",
     "correct": "D",
     "id": 3
@@ -71,7 +71,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2021",
-    "text": "<img src='images/images_question_images_3689_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_3689_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : a>5\",\"B : 4<a<5\",\"C : 3<a<4\",\"D : 2<a<3\"]",
     "correct": "B",
     "id": 7
@@ -214,7 +214,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2017",
-    "text": "<img src='images/images_question_images_2346_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_2346_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 2\",\"B : 1/3\",\"C : 6\",\"D : 2/3\"]",
     "correct": "A",
     "id": 20
@@ -247,7 +247,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2017",
-    "text": "<img src='images/images_question_images_2372_question_11TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_2372_question_11TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 3/2\",\"B : 2/5\",\"C : 3/4\",\"D : 4/9\"]",
     "correct": "A",
     "id": 23
@@ -270,7 +270,7 @@
     "topic": "Algebra",
     "year": "2017",
     "text": "Let f(x) = 2x – 5 and g(x) = 7 – 2x. Then |f(x) + g(x)| = |f(x)| + |g(x)| if and only if",
-    "options_raw": "[\"A : <img src='images/images_question_images_2379_answer_9197_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/images_question_images_2379_answer_9198_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_2379_answer_9199_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/images_question_images_2379_answer_9200_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
+    "options_raw": "[\"A : <img src='images/question_images/2379_answer_9197_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/question_images/2379_answer_9198_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/2379_answer_9199_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/question_images/2379_answer_9200_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
     "correct": "D",
     "id": 25
   },
@@ -280,8 +280,8 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2008",
-    "text": "<img src='images/images_question_images_3853_question_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
-    "options_raw": "[\"A : 0\",\"B : <img src='images/images_question_images_3853_answer_14349_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_3853_answer_14350_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : 1\",\"E : cannot be determined\"]",
+    "text": "<img src='images/question_images_3853_question_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "options_raw": "[\"A : 0\",\"B : <img src='images/question_images/3853_answer_14349_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/3853_answer_14350_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : 1\",\"E : cannot be determined\"]",
     "correct": "B",
     "id": 26
   },
@@ -357,7 +357,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2004",
-    "text": "<img src='images/images_question_images_393_question_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'> <img src='images/images_question_images_393_question_rkJgggEQ2.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_393_question_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'> <img src='images/question_images_393_question_rkJgggEQ2.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 0\",\"B : 1\",\"C : 2\",\"D : 3\"]",
     "correct": "C",
     "id": 33
@@ -368,8 +368,8 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2004",
-    "text": "<img src='images/images_question_images_394_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
-    "options_raw": "[\"A : <img src='images/images_question_images_394_answer_1573_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/images_question_images_394_answer_1574_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_394_answer_1575_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/images_question_images_394_answer_1576_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
+    "text": "<img src='images/question_images_394_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "options_raw": "[\"A : <img src='images/question_images/394_answer_1573_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/question_images/394_answer_1574_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/394_answer_1575_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/question_images/394_answer_1576_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
     "correct": "B",
     "id": 34
   },
@@ -390,7 +390,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2003",
-    "text": "<img src='images/images_question_images_387_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_387_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : x = 2.3\",\"B : x = 2.5\",\"C : x = 2.7\",\"D : None of these\"]",
     "correct": "B",
     "id": 36
@@ -423,8 +423,8 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2002",
-    "text": "<img src='images/images_question_images_379_question_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
-    "options_raw": "[\"A : <img src='images/images_question_images_379_answer_1513_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/images_question_images_379_answer_1514_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_379_answer_1515_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/images_question_images_379_answer_1516_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
+    "text": "<img src='images/question_images_379_question_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "options_raw": "[\"A : <img src='images/question_images/379_answer_1513_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/question_images/379_answer_1514_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/379_answer_1515_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/question_images/379_answer_1516_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
     "correct": "B",
     "id": 39
   },
@@ -500,7 +500,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2000",
-    "text": "<img src='images/images_question_images_380_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_380_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : x and y are positive\",\"B : x and y are negative\",\"C : x and y are greater than – 1\",\"D : none of these\"]",
     "correct": "D",
     "id": 46
@@ -511,8 +511,8 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2000",
-    "text": "<img src='images/images_question_images_381_question_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
-    "options_raw": "[\"A : <img src='images/images_question_images_381_answer_1521_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/images_question_images_381_answer_1522_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_381_answer_1523_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : None of these\"]",
+    "text": "<img src='images/question_images_381_question_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "options_raw": "[\"A : <img src='images/question_images/381_answer_1521_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/question_images/381_answer_1522_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/381_answer_1523_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : None of these\"]",
     "correct": "C",
     "id": 47
   },
@@ -522,7 +522,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2000",
-    "text": "<img src='images/images_question_images_382_question_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_382_question_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : x = y\",\"B : x + y = 1\",\"C : x + y = 2\",\"D : Both b and c\"]",
     "correct": "B",
     "id": 48
@@ -533,7 +533,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2000",
-    "text": "<img src='images/images_question_images_383_question_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_383_question_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : y = ax + b\",\"B : y = a + bx +cx²\",\"C : y = eᵃˣ⁺ᵇ\",\"D : None of these\"]",
     "correct": "B",
     "id": 49
@@ -555,7 +555,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2000",
-    "text": "<img src='images/images_question_images_395_question_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_395_question_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : f(x) = 3f(–x)\",\"B : f(x) = f(–x)\",\"C : f(x) = –f(–x)\",\"D : 6f(x) = 3f(–x) for x > 0\"]",
     "correct": "B",
     "id": 51
@@ -566,7 +566,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2000",
-    "text": "<img src='images/images_question_images_396_question_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_396_question_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : f(x) = 3f(–x)\",\"B : f(x) = f(–x)\",\"C : f(x) = –f(–x)\",\"D : 6f(x) = 3f(–x) for x > 0\"]",
     "correct": "D",
     "id": 52
@@ -577,7 +577,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2000",
-    "text": "<img src='images/images_question_images_397_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_397_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : f(x) = 3f(–x)\",\"B : f(x) = f(–x)\",\"C : f(x) = –f(–x)\",\"D : 6f(x) = 3f(–x) for x > 0\"]",
     "correct": "C",
     "id": 53
@@ -588,7 +588,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2000",
-    "text": "<img src='images/images_question_images_409_question_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'> <img src='images/images_question_images_409_question_RK5CYII=2.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_409_question_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'> <img src='images/question_images_409_question_RK5CYII=2.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 1/5\",\"B : 1/6\",\"C : 1/7\",\"D : 1/8\"]",
     "correct": "D",
     "id": 54
@@ -599,7 +599,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2000",
-    "text": "<img src='images/images_question_images_410_question_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_410_question_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 2/3\",\"B : 1/2\",\"C : 3/5\",\"D : 4\"]",
     "correct": "C",
     "id": 55
@@ -643,7 +643,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "1999",
-    "text": "<img src='images/images_question_images_372_question_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_372_question_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : Mark (a) if F1(x) = –F(x)\",\"B : Mark (b) if F1(x) = F(–x)\",\"C : Mark (c) if F1(x) = –F(–x)\",\"D : Otherwise mark (d).\"]",
     "correct": "D",
     "id": 59
@@ -654,7 +654,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "1999",
-    "text": "<img src='images/images_question_images_373_question_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_373_question_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : Mark (a) if F1(x) = –F(x)\",\"B : Mark (b) if F1(x) = F(–x)\",\"C : Mark (c) if F1(x) = –F(–x)\",\"D : Otherwise mark (d).\"]",
     "correct": "D",
     "id": 60
@@ -665,7 +665,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "1999",
-    "text": "<img src='images/images_question_images_374_question_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_374_question_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : Mark (a) if F1(x) = –F(x)\",\"B : Mark (b) if F1(x) = F(–x)\",\"C : Mark (c) if F1(x) = –F(–x)\",\"D : Otherwise mark (d).\"]",
     "correct": "D",
     "id": 61
@@ -676,7 +676,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "1999",
-    "text": "<img src='images/images_question_images_375_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_375_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : Mark (a) if F1(x) = –F(x)\",\"B : Mark (b) if F1(x) = F(–x)\",\"C : Mark (c) if F1(x) = –F(–x)\",\"D : Otherwise mark (d).\"]",
     "correct": "C",
     "id": 62
@@ -709,7 +709,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "1998",
-    "text": "<img src='images/images_question_images_42_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_42_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 3/8\",\"B : 4log₁₀ 0.1/8\",\"C : (4+10¹·³)/8\",\"D : None of these\"]",
     "correct": "D",
     "id": 65
@@ -863,7 +863,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "1994",
-    "text": "<img src='images/images_question_images_365_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_365_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 1\",\"B : gof(x)\",\"C : (15x+9)/(16x-5)\",\"D : 1/x\"]",
     "correct": "B",
     "id": 79
@@ -874,7 +874,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "1994",
-    "text": "<img src='images/images_question_images_366_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_366_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : -3\",\"B : 1/4\",\"C : -4\",\"D : None of these\"]",
     "correct": "C",
     "id": 80
@@ -885,7 +885,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "1994",
-    "text": "<img src='images/images_question_images_367_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_367_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : x\",\"B : x²\",\"C : (5x+3)/(4x-1)\",\"D : (x+3)(5x+3)/(4x-5)(4x-1)\"]",
     "correct": "B",
     "id": 81
@@ -896,7 +896,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "1994",
-    "text": "<img src='images/images_question_images_368_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_368_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : x\",\"B : x²\",\"C : 2x+3\",\"D : (x+3)/(4x-5)\"]",
     "correct": "C",
     "id": 82
@@ -918,8 +918,8 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2024",
-    "text": "<img src='images/images_question_images_4620_question_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
-    "options_raw": "[\"A : <img src='images/images_question_images_4620_answer_16857_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/images_question_images_4620_answer_16858_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_4620_answer_16859_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/images_question_images_4620_answer_16860_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
+    "text": "<img src='images/question_images_4620_question_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "options_raw": "[\"A : <img src='images/question_images/4620_answer_16857_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/question_images/4620_answer_16858_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/4620_answer_16859_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/question_images/4620_answer_16860_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
     "correct": "A",
     "id": 84
   },
@@ -929,7 +929,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2024",
-    "text": "<img src='images/images_question_images_4621_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4621_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 7\",\"B : 10\",\"C : 8\",\"D : 9\"]",
     "correct": "C",
     "id": 85
@@ -940,7 +940,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2024",
-    "text": "<img src='images/images_question_images_4622_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4622_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : -1023132\",\"B : -1022121\",\"C : -1024144\",\"D : -1026169\"]",
     "correct": "C",
     "id": 86
@@ -962,8 +962,8 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2024",
-    "text": "<img src='images/images_question_images_4625_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
-    "options_raw": "[\"A : <img src='images/images_question_images_4625_answer_16873_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/images_question_images_4625_answer_16874_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_4625_answer_16875_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/images_question_images_4625_answer_16876_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
+    "text": "<img src='images/question_images_4625_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "options_raw": "[\"A : <img src='images/question_images/4625_answer_16873_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/question_images/4625_answer_16874_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/4625_answer_16875_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/question_images/4625_answer_16876_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
     "correct": "A",
     "id": 88
   },
@@ -973,7 +973,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2024",
-    "text": "<img src='images/images_question_images_4603_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4603_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 10\",\"B : 5\",\"C : 20\",\"D : 15\"]",
     "correct": "D",
     "id": 89
@@ -984,7 +984,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2024",
-    "text": "<img src='images/images_question_images_4604_question_11RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4604_question_11RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 1023\",\"B : 4095\",\"C : 2047\",\"D : 8191\"]",
     "correct": "B",
     "id": 90
@@ -995,7 +995,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2024",
-    "text": "<img src='images/images_question_images_4605_question_11rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4605_question_11rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 5/408\",\"B : 7/816\",\"C : 7/408\",\"D : 5/816\"]",
     "correct": "A",
     "id": 91
@@ -1006,7 +1006,7 @@
     "type": "TITA",
     "topic": "Algebra",
     "year": "2024",
-    "text": "<img src='images/images_question_images_4606_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4606_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "null",
     "correct": "14",
     "id": 92
@@ -1017,7 +1017,7 @@
     "type": "TITA",
     "topic": "Algebra",
     "year": "2024",
-    "text": "<img src='images/images_question_images_4607_question_11rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4607_question_11rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "null",
     "correct": "11",
     "id": 93
@@ -1028,7 +1028,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2024",
-    "text": "<img src='images/images_question_images_4608_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4608_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 9\",\"B : 16\",\"C : 4\",\"D : 1\"]",
     "correct": "C",
     "id": 94
@@ -1039,7 +1039,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2024",
-    "text": "<img src='images/images_question_images_4609_question_11TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4609_question_11TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : x < -5 or x> 3/2\",\"B : x<-5 or 3/2 < x <=8\",\"C : -5<x<3/2 or 3/2<x<=8\",\"D : -5<x<3/2 or x>3/2\"]",
     "correct": "B",
     "id": 95
@@ -1050,7 +1050,7 @@
     "type": "TITA",
     "topic": "Algebra",
     "year": "2024",
-    "text": "<img src='images/images_question_images_4610_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4610_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "null",
     "correct": "7",
     "id": 96
@@ -1094,7 +1094,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2024",
-    "text": "<img src='images/images_question_images_4507_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4507_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 3\",\"B : 4/3\",\"C : 1\",\"D : 4\"]",
     "correct": "A",
     "id": 100
@@ -1105,7 +1105,7 @@
     "type": "TITA",
     "topic": "Algebra",
     "year": "2024",
-    "text": "<img src='images/images_question_images_4508_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4508_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "null",
     "correct": "38",
     "id": 101
@@ -1116,7 +1116,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2024",
-    "text": "<img src='images/images_question_images_4509_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4509_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : -194\",\"B : -196\",\"C : 204\",\"D : 206\"]",
     "correct": "A",
     "id": 102
@@ -1127,7 +1127,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2024",
-    "text": "<img src='images/images_question_images_4510_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4510_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 2 π\",\"B : π\",\"C : 4 π\",\"D : 3 π\"]",
     "correct": "A",
     "id": 103
@@ -1138,7 +1138,7 @@
     "type": "TITA",
     "topic": "Algebra",
     "year": "2024",
-    "text": "<img src='images/images_question_images_4511_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4511_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "null",
     "correct": "31",
     "id": 104
@@ -1149,7 +1149,7 @@
     "type": "TITA",
     "topic": "Algebra",
     "year": "2024",
-    "text": "<img src='images/images_question_images_4526_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4526_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "null",
     "correct": "217",
     "id": 105
@@ -1160,7 +1160,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2024",
-    "text": "<img src='images/images_question_images_4527_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4527_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 18\",\"B : 22\",\"C : 4\",\"D : 6\"]",
     "correct": "A",
     "id": 106
@@ -1171,8 +1171,8 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4411_question_11111rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
-    "options_raw": "[\"A : <img src='images/images_question_images_4411_answer_16263_11111rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/images_question_images_4411_answer_16264_11111RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_4411_answer_16265_11111rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/images_question_images_4411_answer_16266_11111RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
+    "text": "<img src='images/question_images_4411_question_11111rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "options_raw": "[\"A : <img src='images/question_images/4411_answer_16263_11111rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/question_images/4411_answer_16264_11111RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/4411_answer_16265_11111rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/question_images/4411_answer_16266_11111RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
     "correct": "A",
     "id": 107
   },
@@ -1182,7 +1182,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4412_question_11TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4412_question_11TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 55\",\"B : 25\",\"C : 33\",\"D : 15\"]",
     "correct": "C",
     "id": 108
@@ -1193,7 +1193,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4413_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4413_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 14\",\"B : 16\",\"C : 44\",\"D : 42\"]",
     "correct": "B",
     "id": 109
@@ -1204,8 +1204,8 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4414_question_111rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
-    "options_raw": "[\"A : <img src='images/images_question_images_4414_answer_16275_111RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/images_question_images_4414_answer_16276_111TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_4414_answer_16277_111rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/images_question_images_4414_answer_16278_111rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
+    "text": "<img src='images/question_images_4414_question_111rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "options_raw": "[\"A : <img src='images/question_images/4414_answer_16275_111RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/question_images/4414_answer_16276_111TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/4414_answer_16277_111rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/question_images/4414_answer_16278_111rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
     "correct": "D",
     "id": 110
   },
@@ -1215,7 +1215,7 @@
     "type": "TITA",
     "topic": "Algebra",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4415_question_11rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4415_question_11rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "null",
     "correct": "468",
     "id": 111
@@ -1226,7 +1226,7 @@
     "type": "TITA",
     "topic": "Algebra",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4416_question_111rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4416_question_111rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "null",
     "correct": "9",
     "id": 112
@@ -1237,7 +1237,7 @@
     "type": "TITA",
     "topic": "Algebra",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4417_question_11TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4417_question_11TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "null",
     "correct": "5",
     "id": 113
@@ -1259,7 +1259,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4430_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4430_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 14798\",\"B : 15000\",\"C : 14900\",\"D : 14602\"]",
     "correct": "C",
     "id": 115
@@ -1270,8 +1270,8 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4431_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
-    "options_raw": "[\"A : <img src='images/images_question_images_4431_answer_16315_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/images_question_images_4431_answer_16316_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_4431_answer_16317_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/images_question_images_4431_answer_16318_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
+    "text": "<img src='images/question_images_4431_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "options_raw": "[\"A : <img src='images/question_images/4431_answer_16315_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/question_images/4431_answer_16316_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/4431_answer_16317_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/question_images/4431_answer_16318_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
     "correct": "C",
     "id": 116
   },
@@ -1281,7 +1281,7 @@
     "type": "TITA",
     "topic": "Algebra",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4432_question_11TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4432_question_11TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "null",
     "correct": "3",
     "id": 117
@@ -1292,8 +1292,8 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4333_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
-    "options_raw": "[\"A : <img src='images/images_question_images_4333_answer_16035_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/images_question_images_4333_answer_16036_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_4333_answer_16037_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/images_question_images_4333_answer_16038_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
+    "text": "<img src='images/question_images_4333_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "options_raw": "[\"A : <img src='images/question_images/4333_answer_16035_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/question_images/4333_answer_16036_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/4333_answer_16037_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/question_images/4333_answer_16038_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
     "correct": "D",
     "id": 118
   },
@@ -1303,7 +1303,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4334_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4334_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 289\",\"B : 290\",\"C : 579\",\"D : 580\"]",
     "correct": "C",
     "id": 119
@@ -1314,8 +1314,8 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4335_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
-    "options_raw": "[\"A : <img src='images/images_question_images_4335_answer_16043_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/images_question_images_4335_answer_16044_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_4335_answer_16045_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/images_question_images_4335_answer_16046_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
+    "text": "<img src='images/question_images_4335_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "options_raw": "[\"A : <img src='images/question_images/4335_answer_16043_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/question_images/4335_answer_16044_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/4335_answer_16045_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/question_images/4335_answer_16046_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
     "correct": "A",
     "id": 120
   },
@@ -1325,8 +1325,8 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4336_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
-    "options_raw": "[\"A : <img src='images/images_question_images_4336_answer_16047_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/images_question_images_4336_answer_16048_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_4336_answer_16049_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/images_question_images_4336_answer_16050_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
+    "text": "<img src='images/question_images_4336_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "options_raw": "[\"A : <img src='images/question_images/4336_answer_16047_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/question_images/4336_answer_16048_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/4336_answer_16049_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/question_images/4336_answer_16050_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
     "correct": "C",
     "id": 121
   },
@@ -1336,7 +1336,7 @@
     "type": "TITA",
     "topic": "Algebra",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4337_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4337_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "null",
     "correct": "7",
     "id": 122
@@ -1347,7 +1347,7 @@
     "type": "TITA",
     "topic": "Algebra",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4338_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4338_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "null",
     "correct": "6",
     "id": 123
@@ -1358,7 +1358,7 @@
     "type": "TITA",
     "topic": "Algebra",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4339_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4339_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "null",
     "correct": "15",
     "id": 124
@@ -1369,7 +1369,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4360_question_11rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4360_question_11rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 243\",\"B : 189\",\"C : 486\",\"D : 378\"]",
     "correct": "D",
     "id": 125
@@ -1380,7 +1380,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4361_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4361_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 86\",\"B : 83\",\"C : 79\",\"D : 84\"]",
     "correct": "C",
     "id": 126
@@ -1391,7 +1391,7 @@
     "type": "TITA",
     "topic": "Algebra",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4362_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4362_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "null",
     "correct": "967",
     "id": 127
@@ -1402,7 +1402,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4063_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4063_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 1\",\"B : 0\",\"C : 2\",\"D : -2\"]",
     "correct": "A",
     "id": 128
@@ -1413,7 +1413,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4064_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4064_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 10\",\"B : 68\",\"C : 11\",\"D : 20\"]",
     "correct": "A",
     "id": 129
@@ -1424,7 +1424,7 @@
     "type": "TITA",
     "topic": "Algebra",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4065_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4065_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "null",
     "correct": "2",
     "id": 130
@@ -1435,7 +1435,7 @@
     "type": "TITA",
     "topic": "Algebra",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4066_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4066_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "null",
     "correct": "6",
     "id": 131
@@ -1446,7 +1446,7 @@
     "type": "TITA",
     "topic": "Algebra",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4067_question_11rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4067_question_11rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "null",
     "correct": "3",
     "id": 132
@@ -1457,8 +1457,8 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4324_question_11RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
-    "options_raw": "[\"A : <img src='images/images_question_images_4324_answer_16015_11RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/images_question_images_4324_answer_16016_11RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_4324_answer_16017_11TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/images_question_images_4324_answer_16018_11RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
+    "text": "<img src='images/question_images_4324_question_11RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "options_raw": "[\"A : <img src='images/question_images/4324_answer_16015_11RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/question_images/4324_answer_16016_11RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/4324_answer_16017_11TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/question_images/4324_answer_16018_11RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
     "correct": "D",
     "id": 133
   },
@@ -1468,7 +1468,7 @@
     "type": "TITA",
     "topic": "Algebra",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4325_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4325_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "null",
     "correct": "19",
     "id": 134
@@ -1479,8 +1479,8 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4332_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
-    "options_raw": "[\"A : <img src='images/images_question_images_4332_answer_16031_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/images_question_images_4332_answer_16032_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_4332_answer_16033_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/images_question_images_4332_answer_16034_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
+    "text": "<img src='images/question_images_4332_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "options_raw": "[\"A : <img src='images/question_images/4332_answer_16031_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/question_images/4332_answer_16032_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/4332_answer_16033_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/question_images/4332_answer_16034_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
     "correct": "A",
     "id": 135
   },
@@ -1490,8 +1490,8 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2022",
-    "text": "<img src='images/images_question_images_4253_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
-    "options_raw": "[\"A : <img src='images/images_question_images_4253_answer_15831_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/images_question_images_4253_answer_15832_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_4253_answer_15833_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/images_question_images_4253_answer_15834_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
+    "text": "<img src='images/question_images_4253_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "options_raw": "[\"A : <img src='images/question_images/4253_answer_15831_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/question_images/4253_answer_15832_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/4253_answer_15833_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/question_images/4253_answer_15834_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
     "correct": "C",
     "id": 136
   },
@@ -1501,8 +1501,8 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2022",
-    "text": "<img src='images/images_question_images_4254_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
-    "options_raw": "[\"A : <img src='images/images_question_images_4254_answer_15835_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/images_question_images_4254_answer_15836_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_4254_answer_15837_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : 60\"]",
+    "text": "<img src='images/question_images_4254_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "options_raw": "[\"A : <img src='images/question_images/4254_answer_15835_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/question_images/4254_answer_15836_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/4254_answer_15837_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : 60\"]",
     "correct": "A",
     "id": 137
   },
@@ -1512,7 +1512,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2022",
-    "text": "<img src='images/images_question_images_4255_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4255_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 8\",\"B : 13\",\"C : 7\",\"D : 9\"]",
     "correct": "D",
     "id": 138
@@ -1556,7 +1556,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2022",
-    "text": "<img src='images/images_question_images_4268_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4268_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 4\",\"B : 1\",\"C : 0\",\"D : 3\"]",
     "correct": "A",
     "id": 142
@@ -1567,7 +1567,7 @@
     "type": "TITA",
     "topic": "Algebra",
     "year": "2022",
-    "text": "<img src='images/images_question_images_4269_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4269_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "null",
     "correct": "14",
     "id": 143
@@ -1578,7 +1578,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2022",
-    "text": "<img src='images/images_question_images_4180_question_11RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4180_question_11RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 24\",\"B : 12\",\"C : 6\",\"D : 36\"]",
     "correct": "A",
     "id": 144
@@ -1589,7 +1589,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2022",
-    "text": "<img src='images/images_question_images_4181_question_11rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4181_question_11rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 3.5\",\"B : 3\",\"C : 4.5\",\"D : 4\"]",
     "correct": "C",
     "id": 145
@@ -1600,7 +1600,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2022",
-    "text": "<img src='images/images_question_images_4185_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4185_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 442\",\"B : 415\",\"C : 404\",\"D : 455\"]",
     "correct": "D",
     "id": 146
@@ -1611,7 +1611,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2022",
-    "text": "<img src='images/images_question_images_4190_question_11TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4190_question_11TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 5\",\"B : 7\",\"C : 6\",\"D : 4\"]",
     "correct": "B",
     "id": 147
@@ -1622,8 +1622,8 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2022",
-    "text": "<img src='images/images_question_images_4191_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
-    "options_raw": "[\"A : <img src='images/images_question_images_4191_answer_15655_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/images_question_images_4191_answer_15656_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_4191_answer_15657_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : 4\"]",
+    "text": "<img src='images/question_images_4191_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "options_raw": "[\"A : <img src='images/question_images/4191_answer_15655_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/question_images/4191_answer_15656_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/4191_answer_15657_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : 4\"]",
     "correct": "A",
     "id": 148
   },
@@ -1633,7 +1633,7 @@
     "type": "TITA",
     "topic": "Algebra",
     "year": "2022",
-    "text": "<img src='images/images_question_images_4192_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4192_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "null",
     "correct": "4",
     "id": 149
@@ -1644,7 +1644,7 @@
     "type": "TITA",
     "topic": "Algebra",
     "year": "2022",
-    "text": "<img src='images/images_question_images_4194_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4194_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "null",
     "correct": "14",
     "id": 150
@@ -1655,7 +1655,7 @@
     "type": "TITA",
     "topic": "Algebra",
     "year": "2022",
-    "text": "<img src='images/images_question_images_4195_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4195_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "null",
     "correct": "12",
     "id": 151
@@ -1666,7 +1666,7 @@
     "type": "TITA",
     "topic": "Algebra",
     "year": "2022",
-    "text": "<img src='images/images_question_images_4196_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4196_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "null",
     "correct": "47",
     "id": 152
@@ -1677,7 +1677,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2022",
-    "text": "<img src='images/images_question_images_4199_question_1111RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4199_question_1111RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 18\",\"B : 19\",\"C : 17\",\"D : 16\"]",
     "correct": "B",
     "id": 153
@@ -1688,7 +1688,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2022",
-    "text": "<img src='images/images_question_images_4200_question_11RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4200_question_11RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 1420\",\"B : 1480\",\"C : 1200\",\"D : 1440\"]",
     "correct": "D",
     "id": 154
@@ -1699,7 +1699,7 @@
     "type": "TITA",
     "topic": "Algebra",
     "year": "2022",
-    "text": "<img src='images/images_question_images_4112_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4112_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "null",
     "correct": "44",
     "id": 155
@@ -1710,7 +1710,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2022",
-    "text": "<img src='images/images_question_images_4116_question_11RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4116_question_11RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 4\",\"B : 7\",\"C : 9\",\"D : 8\"]",
     "correct": "B",
     "id": 156
@@ -1721,7 +1721,7 @@
     "type": "TITA",
     "topic": "Algebra",
     "year": "2022",
-    "text": "<img src='images/images_question_images_4117_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4117_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "null",
     "correct": "34",
     "id": 157
@@ -1732,7 +1732,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2022",
-    "text": "<img src='images/images_question_images_4118_question_11TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4118_question_11TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 9\",\"B : 8\",\"C : 10\",\"D : 7\"]",
     "correct": "B",
     "id": 158
@@ -1743,7 +1743,7 @@
     "type": "TITA",
     "topic": "Algebra",
     "year": "2022",
-    "text": "<img src='images/images_question_images_4120_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4120_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "null",
     "correct": "82",
     "id": 159
@@ -1754,8 +1754,8 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2022",
-    "text": "<img src='images/images_question_images_4123_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
-    "options_raw": "[\"A : <img src='images/images_question_images_4123_answer_15443_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/images_question_images_4123_answer_15444_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_4123_answer_15445_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/images_question_images_4123_answer_15446_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
+    "text": "<img src='images/question_images_4123_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "options_raw": "[\"A : <img src='images/question_images/4123_answer_15443_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/question_images/4123_answer_15444_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/4123_answer_15445_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/question_images/4123_answer_15446_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
     "correct": "D",
     "id": 160
   },
@@ -1765,7 +1765,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2022",
-    "text": "<img src='images/images_question_images_4128_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4128_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 50\",\"B : 25\",\"C : 0\",\"D : 100\"]",
     "correct": "A",
     "id": 161
@@ -1776,7 +1776,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2022",
-    "text": "<img src='images/images_question_images_4132_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4132_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : -1\",\"B : 0\",\"C : 1\",\"D : 2\"]",
     "correct": "C",
     "id": 162
@@ -1798,7 +1798,7 @@
     "type": "TITA",
     "topic": "Algebra",
     "year": "2021",
-    "text": "<img src='images/images_question_images_3656_question_111111111111111TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_3656_question_111111111111111TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "null",
     "correct": "99",
     "id": 164
@@ -1908,7 +1908,7 @@
     "type": "TITA",
     "topic": "Algebra",
     "year": "2021",
-    "text": "<img src='images/images_question_images_3709_question_11RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_3709_question_11RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "null",
     "correct": "6",
     "id": 174
@@ -1931,7 +1931,7 @@
     "topic": "Algebra",
     "year": "2020",
     "text": "If x = (4096) 7+4√3 , then which of the following equals 64?",
-    "options_raw": "[\"A : <img src='images/images_question_images_2704_answer_10234_11111TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/images_question_images_2704_answer_10235_11111TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_2704_answer_10236_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/images_question_images_2704_answer_10237_11111RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
+    "options_raw": "[\"A : <img src='images/question_images/2704_answer_10234_11111TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/question_images/2704_answer_10235_11111TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/2704_answer_10236_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/question_images/2704_answer_10237_11111RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
     "correct": "C",
     "id": 176
   },
@@ -1941,7 +1941,7 @@
     "type": "TITA",
     "topic": "Algebra",
     "year": "2020",
-    "text": "The number of distinct real roots of the equation <img src='images/images_question_images_2706_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "The number of distinct real roots of the equation <img src='images/question_images_2706_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "null",
     "correct": "1",
     "id": 177
@@ -1974,7 +1974,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2020",
-    "text": "<img src='images/images_question_images_2865_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_2865_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 1\",\"B : 1/2\",\"C : 1/ √ 2\",\"D : 2\"]",
     "correct": "C",
     "id": 180
@@ -2106,7 +2106,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2019",
-    "text": "<img src='images/images_question_images_2669_question_111TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_2669_question_111TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 6\",\"B : 8\",\"C : 16\",\"D : 12\"]",
     "correct": "D",
     "id": 192
@@ -2118,7 +2118,7 @@
     "topic": "Algebra",
     "year": "2019",
     "text": "Let A be a real number. Then the roots of the equation x 2 - 4x - log 2 A = 0 are real and distinct if and only if",
-    "options_raw": "[\"A : <img src='images/images_question_images_2674_answer_10158_1111rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/images_question_images_2674_answer_10159_1111RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_2674_answer_10160_1111RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/images_question_images_2674_answer_10161_1111RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
+    "options_raw": "[\"A : <img src='images/question_images/2674_answer_10158_1111rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/question_images/2674_answer_10159_1111RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/2674_answer_10160_1111RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/question_images/2674_answer_10161_1111RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
     "correct": "C",
     "id": 193
   },
@@ -2128,7 +2128,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2019",
-    "text": "<img src='images/images_question_images_2680_question_11TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_2680_question_11TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : -3 ≤ x ≤ 3\",\"B : 1 ≤ x ≤ 2\",\"C : 1 ≤ x ≤ 3\",\"D : -1 ≤ x ≤ 3\"]",
     "correct": "C",
     "id": 194
@@ -2162,7 +2162,7 @@
     "topic": "Algebra",
     "year": "2018",
     "text": "If x is a positive quantity such that 2 x = 3 log 5 2 , then x is equal to",
-    "options_raw": "[\"A : log 5 9\",\"B : <img src='images/images_question_images_2392_answer_9238_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_2392_answer_9239_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : log 5 8\"]",
+    "options_raw": "[\"A : log 5 9\",\"B : <img src='images/question_images/2392_answer_9238_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/2392_answer_9239_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : log 5 8\"]",
     "correct": "B",
     "id": 197
   },
@@ -2172,7 +2172,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2018",
-    "text": "<img src='images/images_question_images_2393_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_2393_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : log 2 8\",\"B : log 6 8\",\"C : log 4 16\",\"D : log 6 16\"]",
     "correct": "B",
     "id": 198
@@ -2315,8 +2315,8 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2008",
-    "text": "Find the sum of:- <img src='images/images_question_images_3867_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
-    "options_raw": "[\"A : <img src='images/images_question_images_3867_answer_14418_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/images_question_images_3867_answer_14419_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_3867_answer_14420_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/images_question_images_3867_answer_14421_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"E : <img src='images/images_question_images_3867_answer_14422_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
+    "text": "Find the sum of:- <img src='images/question_images_3867_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "options_raw": "[\"A : <img src='images/question_images/3867_answer_14418_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/question_images/3867_answer_14419_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/3867_answer_14420_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/question_images/3867_answer_14421_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"E : <img src='images/question_images/3867_answer_14422_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
     "correct": "A",
     "id": 211
   },
@@ -2337,8 +2337,8 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2006",
-    "text": "The graph of y - x against y + x is as shown below. (All graphs in this question are drawn to scale and the same scale has been used on each axis.) <img src='images/images_question_images_3990_question_11111rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'> Which of the following shows the graph of y against x?",
-    "options_raw": "[\"A : <img src='images/images_question_images_3990_answer_15024_11111rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/images_question_images_3990_answer_15025_11111RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_3990_answer_15026_11111TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/images_question_images_3990_answer_15027_11111TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"E : <img src='images/images_question_images_3990_answer_15028_11111RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
+    "text": "The graph of y - x against y + x is as shown below. (All graphs in this question are drawn to scale and the same scale has been used on each axis.) <img src='images/question_images_3990_question_11111rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'> Which of the following shows the graph of y against x?",
+    "options_raw": "[\"A : <img src='images/question_images/3990_answer_15024_11111rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/question_images/3990_answer_15025_11111RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/3990_answer_15026_11111TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/question_images/3990_answer_15027_11111TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"E : <img src='images/question_images/3990_answer_15028_11111RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
     "correct": "D",
     "id": 213
   },
@@ -2360,7 +2360,7 @@
     "topic": "Algebra",
     "year": "2006",
     "text": "If logy x = (a . logz y) = (b . logx z) = ab, then which of the following pairs of values for (a, b) is not possible?",
-    "options_raw": "[\"A : <img src='images/images_question_images_3994_answer_15044_111TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/images_question_images_3994_answer_15045_111RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_3994_answer_15046_111RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/images_question_images_3994_answer_15047_111RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"E : <img src='images/images_question_images_3994_answer_15048_111rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
+    "options_raw": "[\"A : <img src='images/question_images/3994_answer_15044_111TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/question_images/3994_answer_15045_111RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/3994_answer_15046_111RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/question_images/3994_answer_15047_111RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"E : <img src='images/question_images/3994_answer_15048_111rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
     "correct": "E",
     "id": 215
   },
@@ -2381,7 +2381,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2005",
-    "text": "<img src='images/images_question_images_2503_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_2503_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 3\",\"B : (√13 - 1)/2\",\"C : (√13 + 1)/2\",\"D : √13\"]",
     "correct": "C",
     "id": 217
@@ -2403,7 +2403,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2005",
-    "text": "<img src='images/images_question_images_2930_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_2930_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : – 1\",\"B : – 0.5\",\"C : 0\",\"D : 1\"]",
     "correct": "D",
     "id": 219
@@ -2425,8 +2425,8 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2004",
-    "text": "<img src='images/images_question_images_2500_question_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
-    "options_raw": "[\"A : <img src='images/images_question_images_2500_answer_9602_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/images_question_images_2500_answer_9603_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_2500_answer_9604_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/images_question_images_2500_answer_9605_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
+    "text": "<img src='images/question_images_2500_question_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "options_raw": "[\"A : <img src='images/question_images/2500_answer_9602_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/question_images/2500_answer_9603_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/2500_answer_9604_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/question_images/2500_answer_9605_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
     "correct": "D",
     "id": 221
   },
@@ -2480,7 +2480,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2004",
-    "text": "<img src='images/images_question_images_2928_question_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_2928_question_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : no solution for x\",\"B : Exactly one solution for x\",\"C : Exactly two distinct solutions for x\",\"D : exactly three distinct solutions for x\"]",
     "correct": "B",
     "id": 226
@@ -2525,7 +2525,7 @@
     "topic": "Algebra",
     "year": "2003",
     "text": "Let a, b, c, d be four integers such that a + b + c + d = 4m + 1 where m is a positive integer. Given m, which one of the following is necessarily true?",
-    "options_raw": "[\"A : <img src='images/images_question_images_2445_answer_9414_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/images_question_images_2445_answer_9415_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_2445_answer_9416_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/images_question_images_2445_answer_9417_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
+    "options_raw": "[\"A : <img src='images/question_images/2445_answer_9414_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/question_images/2445_answer_9415_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/2445_answer_9416_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/question_images/2445_answer_9417_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
     "correct": "B",
     "id": 230
   },
@@ -2568,7 +2568,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2003",
-    "text": "If x, y, z are distinct positive real numbers then <img src='images/images_question_images_2449_question_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'> would be",
+    "text": "If x, y, z are distinct positive real numbers then <img src='images/question_images_2449_question_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'> would be",
     "options_raw": "[\"A : greater than 4\",\"B : greater than 5\",\"C : greater than 6\",\"D : None of the above.\"]",
     "correct": "C",
     "id": 234
@@ -2645,7 +2645,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2003",
-    "text": "<img src='images/images_question_images_2456_question_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_2456_question_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 20 < x < 54\",\"B : 23 < x < 58\",\"C : 25 < x < 64\",\"D : 28 < x < 60\"]",
     "correct": "D",
     "id": 241
@@ -2733,7 +2733,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2003",
-    "text": "<img src='images/images_question_images_2923_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_2923_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 27/14\",\"B : 21/13\",\"C : 49/27\",\"D : 256/147\"]",
     "correct": "C",
     "id": 249
@@ -2744,8 +2744,8 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2003",
-    "text": "<img src='images/images_question_images_2924_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
-    "options_raw": "[\"A : <img src='images/images_question_images_2924_answer_10958_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/images_question_images_2924_answer_10959_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_2924_answer_10960_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/images_question_images_2924_answer_10961_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
+    "text": "<img src='images/question_images_2924_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "options_raw": "[\"A : <img src='images/question_images/2924_answer_10958_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/question_images/2924_answer_10959_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/2924_answer_10960_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/question_images/2924_answer_10961_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
     "correct": "D",
     "id": 250
   },
@@ -2788,8 +2788,8 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2002",
-    "text": "<img src='images/images_question_images_2440_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
-    "options_raw": "[\"A : <img src='images/images_question_images_2440_answer_9394_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/images_question_images_2440_answer_9395_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : 1\",\"D : <img src='images/images_question_images_2440_answer_9397_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
+    "text": "<img src='images/question_images_2440_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "options_raw": "[\"A : <img src='images/question_images/2440_answer_9394_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/question_images/2440_answer_9395_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : 1\",\"D : <img src='images/question_images/2440_answer_9397_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
     "correct": "C",
     "id": 254
   },
@@ -2832,8 +2832,8 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2002",
-    "text": "<img src='images/images_question_images_2914_question_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
-    "options_raw": "[\"A : <img src='images/images_question_images_2914_answer_10918_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/images_question_images_2914_answer_10919_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_2914_answer_10920_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/images_question_images_2914_answer_10921_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
+    "text": "<img src='images/question_images_2914_question_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "options_raw": "[\"A : <img src='images/question_images/2914_answer_10918_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/question_images/2914_answer_10919_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/2914_answer_10920_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/question_images/2914_answer_10921_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
     "correct": "A",
     "id": 258
   },
@@ -2865,8 +2865,8 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2002",
-    "text": "<img src='images/images_question_images_2917_question_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
-    "options_raw": "[\"A : <img src='images/images_question_images_2917_answer_10930_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/images_question_images_2917_answer_10931_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_2917_answer_10932_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/images_question_images_2917_answer_10933_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
+    "text": "<img src='images/question_images_2917_question_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "options_raw": "[\"A : <img src='images/question_images/2917_answer_10930_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/question_images/2917_answer_10931_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/2917_answer_10932_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : <img src='images/question_images/2917_answer_10933_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\"]",
     "correct": "B",
     "id": 261
   },
@@ -2920,7 +2920,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2001",
-    "text": "Let x, y be two positive numbers such that x + y = 1. Then, the minimum value of <img src='images/images_question_images_2432_question_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "Let x, y be two positive numbers such that x + y = 1. Then, the minimum value of <img src='images/question_images_2432_question_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 12\",\"B : 20\",\"C : 12.5\",\"D : 13.3\"]",
     "correct": "C",
     "id": 266
@@ -2954,7 +2954,7 @@
     "topic": "Algebra",
     "year": "2001",
     "text": "Based on the information provided which of the following is true?",
-    "options_raw": "[\"A : <img src='images/images_question_images_2435_answer_9374_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/images_question_images_2435_answer_9375_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/images_question_images_2435_answer_9376_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : None of these\"]",
+    "options_raw": "[\"A : <img src='images/question_images/2435_answer_9374_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"B : <img src='images/question_images/2435_answer_9375_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"C : <img src='images/question_images/2435_answer_9376_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>\",\"D : None of these\"]",
     "correct": "D",
     "id": 269
   },
@@ -3041,7 +3041,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2000",
-    "text": "<img src='images/images_question_images_2427_question_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_2427_question_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 0.6\",\"B : 0.2\",\"C : 0.36\",\"D : 0.4\"]",
     "correct": "D",
     "id": 277
@@ -3052,7 +3052,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2000",
-    "text": "<img src='images/images_question_images_2908_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_2908_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 9/10\",\"B : 10/11\",\"C : 19/21\",\"D : 10/21\"]",
     "correct": "D",
     "id": 278
@@ -3063,7 +3063,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "2000",
-    "text": "<img src='images/images_question_images_2909_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_2909_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 5 × 2 99 + 6\",\"B : 5 × 2 99 - 6\",\"C : 6 × 2 99 + 5\",\"D : 6 × 2 99 - 5\"]",
     "correct": "D",
     "id": 279
@@ -3261,7 +3261,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "1995",
-    "text": "<img src='images/images_question_images_80_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_80_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 100\",\"B : 105\",\"C : 125\",\"D : 75\"]",
     "correct": "A",
     "id": 297
@@ -3283,7 +3283,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "1994",
-    "text": "<img src='images/images_question_images_76_question_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_76_question_RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 0\",\"B : 1\",\"C : -1\",\"D : abc\"]",
     "correct": "B",
     "id": 299
@@ -3294,7 +3294,7 @@
     "type": "MCQ",
     "topic": "Algebra",
     "year": "1994",
-    "text": "<img src='images/images_question_images_77_question_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_77_question_TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 49/4\",\"B : 4/49\",\"C : 4\",\"D : 1/4\"]",
     "correct": "A",
     "id": 300
@@ -3470,7 +3470,7 @@
     "type": "MCQ",
     "topic": "Averages, Ratio & Proportion",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4421_question_11TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4421_question_11TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 1.5\",\"B : 1\",\"C : 0.5\",\"D : 2\"]",
     "correct": "B",
     "id": 316
@@ -3514,7 +3514,7 @@
     "type": "TITA",
     "topic": "Averages, Ratio & Proportion",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4350_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4350_question_1TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "null",
     "correct": "16",
     "id": 320
@@ -3657,7 +3657,7 @@
     "type": "MCQ",
     "topic": "Averages, Ratio & Proportion",
     "year": "2022",
-    "text": "<img src='images/images_question_images_4125_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4125_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 4\",\"B : 5\",\"C : 3\",\"D : 1\"]",
     "correct": "B",
     "id": 333
@@ -4031,7 +4031,7 @@
     "type": "MCQ",
     "topic": "Averages, Ratio & Proportion",
     "year": "2018",
-    "text": "<img src='images/images_question_images_2626_question_1111RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_2626_question_1111RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 0\",\"B : 1/2\",\"C : -4\",\"D : 10\"]",
     "correct": "B",
     "id": 367
@@ -4537,7 +4537,7 @@
     "type": "MCQ",
     "topic": "Percentage, Profit & Loss",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4418_question_11TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4418_question_11TkSuQmCC1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 72000\",\"B : 73000\",\"C : 74000\",\"D : 75000\"]",
     "correct": "B",
     "id": 413
@@ -4625,7 +4625,7 @@
     "type": "MCQ",
     "topic": "Percentage, Profit & Loss",
     "year": "2022",
-    "text": "<img src='images/images_question_images_4266_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4266_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 700\",\"B : 900\",\"C : 1000\",\"D : 800\"]",
     "correct": "D",
     "id": 421
@@ -5307,7 +5307,7 @@
     "type": "MCQ",
     "topic": "Percentage, Profit & Loss",
     "year": "2003",
-    "text": "A leather factory produces two kinds of bags, standard and deluxe bag. The profit margin is Rs 20 on a standard bag and Rs 30 on a deluxe bag. Every bag must be processed on machine A and on machine B. The processing times per bag on the two machines are as follows: <img src='images/images_question_images_2962_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'> The total time available on machine A is 700 hours and on machine B is 1250 hours. Among the following production plans, which one meets the machine availability constraints and maximizes the profit?",
+    "text": "A leather factory produces two kinds of bags, standard and deluxe bag. The profit margin is Rs 20 on a standard bag and Rs 30 on a deluxe bag. Every bag must be processed on machine A and on machine B. The processing times per bag on the two machines are as follows: <img src='images/question_images_2962_question_rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'> The total time available on machine A is 700 hours and on machine B is 1250 hours. Among the following production plans, which one meets the machine availability constraints and maximizes the profit?",
     "options_raw": "[\"A : Standard 75 bags, Deluxe 80 bags\",\"B : Standard 100 bags, Deluxe 60 bags\",\"C : Standard 50 bags, Deluxe 100 bags\",\"D : Standard 60 bags, Deluxe 90 bags.\"]",
     "correct": "A",
     "id": 483
@@ -5780,7 +5780,7 @@
     "type": "MCQ",
     "topic": "Time, Speed, Distance & Work",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4422_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4422_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : [IMG:images/question_images_4422_answer_16295_1RK5CYII=1.png]\",\"B : [IMG:images/question_images_4422_answer_16296_1RK5CYII=1.png]\",\"C : [IMG:images/question_images_4422_answer_16297_1TkSuQmCC1.png]\",\"D : [IMG:images/question_images_4422_answer_16298_1RK5CYII=1.png]\"]",
     "correct": "B",
     "id": 526
@@ -5824,7 +5824,7 @@
     "type": "MCQ",
     "topic": "Time, Speed, Distance & Work",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4304_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4304_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 36/11\",\"B : 24/11\",\"C : 4\",\"D : 2\"]",
     "correct": "B",
     "id": 530
@@ -5835,7 +5835,7 @@
     "type": "MCQ",
     "topic": "Time, Speed, Distance & Work",
     "year": "2023",
-    "text": "<img src='images/images_question_images_4310_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4310_question_1rkJgggEQ1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 110\",\"B : 90\",\"C : 80\",\"D : 100\"]",
     "correct": "D",
     "id": 531
@@ -5890,7 +5890,7 @@
     "type": "MCQ",
     "topic": "Time, Speed, Distance & Work",
     "year": "2022",
-    "text": "<img src='images/images_question_images_4257_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4257_question_1RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 2\",\"B : [IMG:images/question_images_4257_answer_15848_1rkJgggEQ1.png]\",\"C : -2\",\"D : [IMG:images/question_images_4257_answer_15850_1TkSuQmCC1.png]\"]",
     "correct": "A",
     "id": 536
@@ -5901,7 +5901,7 @@
     "type": "MCQ",
     "topic": "Time, Speed, Distance & Work",
     "year": "2022",
-    "text": "<img src='images/images_question_images_4261_question_11RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
+    "text": "<img src='images/question_images_4261_question_11RK5CYII=1.png' alt='Q' style='max-width:100%;height:auto;border-radius:6px;margin:4px 0;'>",
     "options_raw": "[\"A : 150\",\"B : 36\",\"C : 140\",\"D : 23\"]",
     "correct": "C",
     "id": 537
