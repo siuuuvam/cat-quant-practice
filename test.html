@@ -779,8 +779,9 @@
       const arr = JSON.parse(optRaw);
       if (!Array.isArray(arr) || arr.length === 0) return null;
       return arr.map(function(o) {
-        const parts = o.split(/:\s*/, 2);
-        return { letter: parts[0].trim(), text: (parts[1] || '').trim() };
+        const idx = o.indexOf(':');
+        if (idx === -1) return { letter: o.trim(), text: '' };
+        return { letter: o.substring(0, idx).trim(), text: o.substring(idx + 1).trim() };
       });
     } catch(e) { return null; }
   }
