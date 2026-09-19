@@ -434,7 +434,6 @@ JS_DATA_PLACEHOLDER
       var isAnswered = userAnswers[q.id] !== undefined;
        var isCorrect = isAnswered && userAnswers[q.id].isCorrect;
       var typeClass = q.type === 'MCQ' ? 'mcq' : 'tita';
-      function renderOpt(t){return t.replace(/\[IMG:([^\]]+)\]/g,'<img src="$1" style="max-height:60px" onerror="this.style.display=\'none\'">');}
       var optionsHTML = '';
       if (q.type === 'MCQ' && q.options) {
         optionsHTML = '<div class="options-grid">';
@@ -447,7 +446,7 @@ JS_DATA_PLACEHOLDER
             else sc = 'disabled';
           }
           var letterStr = "'" + letter + "'";
-          optionsHTML += '<button class="option-btn ' + sc + '" onclick="selectOption(' + q.id + ',' + letterStr + ')"><span>' + renderOpt(opt) + '</span>';
+          optionsHTML += '<button class="option-btn ' + sc + '" onclick="selectOption(' + q.id + ',' + letterStr + ')"><span>' + opt + '</span>';
           if (sc === 'correct-choice') optionsHTML += '<i class="fa-solid fa-circle-check"></i>';
           if (sc === 'incorrect-choice') optionsHTML += '<i class="fa-solid fa-circle-xmark"></i>';
           optionsHTML += '</button>';
