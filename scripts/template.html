@@ -4,10 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CAT Quant Practice</title>
+  <meta name="theme-color" content="#09090b">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
   <style>
     :root{--bg-primary:#09090b;--bg-elevated:#18181b;--bg-surface:#1c1c21;--bg-muted:#27272a;--border-subtle:rgba(255,255,255,.06);--border-default:rgba(255,255,255,.1);--border-hover:rgba(255,255,255,.16);--accent:#818cf8;--accent-bright:#a5b4fc;--accent-dim:rgba(129,140,248,.12);--text-primary:#fafafa;--text-secondary:#a1a1aa;--text-tertiary:#71717a;--green:#34d399;--green-dim:rgba(52,211,153,.1);--red:#f87171;--red-dim:rgba(248,113,113,.1);--blue:#60a5fa;--amber:#f59e0b;--radius-sm:8px;--radius-md:12px;--radius-lg:16px}
     *{box-sizing:border-box;margin:0;padding:0}
@@ -157,19 +160,40 @@
       .timer-wrap{order:3;width:100%;justify-content:center}
       .header-stats{width:100%;justify-content:center}
       .controls{flex-direction:column;align-items:stretch;padding:10px}
-      .filter-pills{justify-content:flex-start;overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;padding-bottom:4px}
+      .filter-pills{display:flex;gap:4px;overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding-bottom:4px}
+      .filter-pills::-webkit-scrollbar{display:none}
+      .pill{flex-shrink:0;min-height:36px;padding:6px 12px}
       .q-header{padding:10px 12px}
       .q-body{padding:10px 12px;font-size:12px}
+      .q-body img{max-width:100%;height:auto}
       .options-grid{padding:0 12px 10px;gap:4px}
-      .option-btn{padding:7px 8px;font-size:11px}
+      .option-btn{padding:10px 10px;font-size:11px;min-height:44px}
       .tita-wrap{padding:0 12px 10px}
       .q-footer{padding:8px 12px;flex-wrap:wrap;gap:6px}
       .q-footer-left{gap:4px}
-      .btn-sm{padding:4px 8px;font-size:10px}
+      .btn-sm{padding:5px 10px;font-size:10px;min-height:36px}
       .sidebar{display:none;position:fixed;top:64px;right:0;bottom:0;width:280px;z-index:150;background:var(--bg-elevated);border-left:1px solid var(--border-subtle);box-shadow:-4px 0 20px rgba(0,0,0,.3)}
       .sidebar.open{display:flex}
       .sidebar-toggle{display:flex;align-items:center;justify-content:center}
       .q-topic-tag{font-size:8px;padding:1px 4px}
+      .brand-text h1{font-size:13px}
+      .brand-text p{font-size:10px}
+      .h-stat{padding:6px 10px}
+      .h-stat-val{font-size:12px}
+      .q-exam-pill{font-size:9px}
+      .q-number{font-size:10px}
+      .solution-box{margin:0 12px 10px;font-size:11px}
+      body{padding-bottom:70px}
+    }
+    @media(max-width:480px){
+      .header-inner{gap:8px}
+      .brand{gap:8px}
+      .brand-logo{width:30px;height:30px;font-size:14px}
+      .timer-display{font-size:16px;min-width:44px}
+      .h-stat{padding:4px 8px}
+      .q-card{border-radius:12px}
+      .controls{padding:8px}
+      .search-input{padding:8px 10px 8px 30px;font-size:12px}
     }
   </style>
 </head>
@@ -321,7 +345,13 @@ JS_DATA_PLACEHOLDER
         applyFilters();
       });
       document.addEventListener('keydown', handleKeyboard);
-      window.addEventListener('scroll', updateSidebarHighlight);
+      var scrollTick = false;
+    window.addEventListener('scroll', function() {
+      if (!scrollTick) {
+        requestAnimationFrame(function() { updateSidebarHighlight(); scrollTick = false; });
+        scrollTick = true;
+      }
+    });
     }
 
     function setupObserver() {
@@ -440,6 +470,7 @@ JS_DATA_PLACEHOLDER
       card.innerHTML = '<div class="q-header"><div class="q-meta"><span class="q-number">Q' + q.id + '</span><span class="q-exam-pill">' + q.meta + '</span><span class="q-type-pill ' + typeClass + '">' + q.type + '</span><span class="q-topic-tag ' + tc + '">' + getTopicShort(q.topic) + '</span></div><div class="q-actions"><button class="q-action-btn' + (bookmarks[q.id] ? ' bookmarked' : '') + '" onclick="toggleBookmark(' + q.id + ')" title="Bookmark"><i class="fa-' + (bookmarks[q.id] ? 'solid' : 'regular') + ' fa-star"></i></button><div class="q-timer-box"><span class="timer-sm" id="timer-' + q.id + '">00:00</span><button class="timer-btn-sm" id="timer-btn-' + q.id + '" onclick="toggleTimer(' + q.id + ')"><i class="fa-solid fa-play"></i></button><button class="timer-btn-sm" onclick="resetTimer(' + q.id + ')"><i class="fa-solid fa-rotate-right"></i></button></div></div></div><div class="q-body"><p>' + q.text + '</p></div>' + optionsHTML + '<div class="q-footer"><div class="q-footer-left"><button class="btn-sm" onclick="toggleSolution(' + q.id + ')"><i class="fa-regular fa-lightbulb"></i> Solution</button>' + redoBtnHTML + '<button class="btn-sm copy-btn" onclick="copyQuestion(' + q.id + ',this)"><i class="fa-regular fa-copy"></i> Copy</button></div><div id="status-' + q.id + '">' + statusHTML + '</div></div><div class="solution-box" id="solution-' + q.id + '"><strong>Correct Answer:</strong> ' + q.correct + ' &mdash; ' + correctDisplay + '</div>';
       var imgs = card.querySelectorAll('img');
       for (var im = 0; im < imgs.length; im++) {
+        imgs[im].loading = 'lazy';
         imgs[im].onerror = function() {
           var src = this.getAttribute('src');
           if (src && src.indexOf('http://') === 0) {
