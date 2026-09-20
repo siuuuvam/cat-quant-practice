@@ -662,6 +662,58 @@
     }
     .back-btn-results:hover { color: var(--text-primary); border-color: var(--accent) !important; }
 
+    /* Review panel */
+    .review-panel { display: none; }
+    .review-panel.show { display: block; }
+    .review-back-btn {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: transparent; border: 1px solid var(--border-default);
+      color: var(--text-secondary); padding: 8px 14px; border-radius: 8px;
+      font-size: 12px; font-weight: 600; font-family: inherit;
+      cursor: pointer; transition: all .15s; margin-bottom: 16px;
+    }
+    .review-back-btn:hover { border-color: var(--accent); color: var(--text-primary); }
+    .review-card {
+      background: var(--bg-elevated); border: 1px solid var(--border-default);
+      border-radius: 16px; overflow: hidden;
+    }
+    .review-header {
+      padding: 14px 20px; border-bottom: 1px solid var(--border-subtle);
+      display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+    }
+    .review-header .q-num { font-weight: 800; background: var(--bg-muted); padding: 3px 8px; border-radius: 4px; font-size: 12px; }
+    .review-header .q-status-badge { font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 6px; text-transform: uppercase; }
+    .review-header .q-status-badge.correct { background: var(--green-dim); color: var(--green); }
+    .review-header .q-status-badge.incorrect { background: var(--red-dim); color: var(--red); }
+    .review-header .q-status-badge.skipped { background: var(--bg-muted); color: var(--text-tertiary); }
+    .review-header .q-topic-badge { font-size: 10px; font-weight: 600; padding: 2px 8px; border-radius: 4px; background: var(--accent-dim); color: var(--accent-bright); }
+    .review-body { padding: 24px; font-size: 16px; line-height: 1.85; color: #e4e4e7; }
+    .review-body p { font-weight: 500; color: #fafafa; }
+    .review-body img { max-width: 100%; height: auto; border-radius: 8px; margin-top: 8px; border: 1px solid var(--border-subtle); }
+    .review-options { padding: 0 24px 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .review-opt {
+      background: var(--bg-primary); border: 1px solid var(--border-default);
+      border-radius: 8px; padding: 12px 14px; display: flex; align-items: center;
+      justify-content: space-between; gap: 8px; font-size: 14px; font-weight: 500;
+      color: var(--text-secondary); transition: all .15s;
+    }
+    .review-opt .opt-letter { font-weight: 700; min-width: 20px; }
+    .review-opt.correct-answer {
+      border-color: var(--green); background: var(--green-dim); color: var(--green);
+      font-weight: 600;
+    }
+    .review-opt.wrong-answer {
+      border-color: var(--red); background: var(--red-dim); color: var(--red);
+      font-weight: 600; text-decoration: line-through; opacity: .8;
+    }
+    .review-info {
+      padding: 0 24px 16px; font-size: 12px; color: var(--text-tertiary);
+    }
+    .review-info strong { color: var(--text-secondary); }
+    @media (max-width: 768px) {
+      .review-options { grid-template-columns: 1fr; }
+    }
+
     /* Responsive */
     @media (max-width: 768px) {
       header { padding: 0 12px; }
@@ -760,6 +812,7 @@
 
 <div class="results-overlay" id="resultsOverlay">
   <div class="results-card" id="resultsContent"></div>
+  <div class="review-panel" id="reviewPanel"></div>
 </div>
 
 <script>
@@ -997,8 +1050,8 @@
     html += '<div class="breakdown">';
     html += '<div class="breakdown-header">Question Breakdown</div>';
     html += '<div class="breakdown-list">';
-    breakdown.forEach(function(b) {
-      html += '<div class="bd-row">';
+    breakdown.forEach(function(b, idx) {
+      html += '<div class="bd-row" style="cursor:pointer" onclick="window.__reviewQuestion(' + idx + ')">';
       html += '<div class="bd-qnum ' + b.status + '">' + b.num + '</div>';
       html += '<div class="bd-answers">';
       html += '<span class="bd-your">Your answer: ' + escapeHtml(String(b.userAns)) + '</span>';
@@ -1029,6 +1082,63 @@
     document.getElementById('appHeader').style.display = 'none';
     document.getElementById('startScreen').style.display = 'flex';
     loadAndInit();
+  };
+
+  window.__reviewQuestion = function(idx) {
+    const q = testQuestions[idx];
+    const opts = parseOptions(q.options_raw);
+    const userAns = userAnswers[idx];
+    const isCorrect = userAns === q.correct;
+    const isSkipped = userAns === undefined || userAns === '';
+
+    let status = 'skipped';
+    if (!isSkipped) {
+      status = isCorrect ? 'correct' : 'incorrect';
+    }
+
+    let html = '<button class="review-back-btn" onclick="window.__backToResults()"><i class="fa-solid fa-arrow-left"></i> Back to Results</button>';
+    html += '<div class="review-card">';
+    html += '<div class="review-header">';
+    html += '<span class="q-num">Q' + (idx + 1) + '</span>';
+    html += '<span class="q-status-badge ' + status + '">' + status + '</span>';
+    if (q.topic) html += '<span class="q-topic-badge">' + escapeHtml(q.topic) + '</span>';
+    if (q.meta) html += '<span class="q-topic-badge">' + escapeHtml(q.meta) + '</span>';
+    html += '</div>';
+    html += '<div class="review-body">' + (q.text || '') + '</div>';
+
+    if (opts) {
+      html += '<div class="review-options">';
+      opts.forEach(function(opt) {
+        let cls = 'review-opt';
+        if (opt.letter === q.correct) {
+          cls += ' correct-answer';
+        } else if (opt.letter === userAns && !isCorrect) {
+          cls += ' wrong-answer';
+        }
+        const optText = opt.text && opt.text.indexOf('<img') !== -1 ? opt.text : escapeHtml(opt.text);
+        html += '<div class="' + cls + '">';
+        html += '<span class="opt-letter">' + escapeHtml(opt.letter) + '</span>';
+        html += '<span>' + optText + '</span>';
+        html += '</div>';
+      });
+      html += '</div>';
+    }
+
+    html += '<div class="review-info">';
+    html += '<strong>Your answer:</strong> ' + (isSkipped ? 'Skipped' : escapeHtml(String(userAns)));
+    html += ' &middot; <strong>Correct answer:</strong> ' + escapeHtml(String(q.correct));
+    html += '</div>';
+    html += '</div>';
+
+    document.getElementById('resultsContent').style.display = 'none';
+    document.getElementById('reviewPanel').innerHTML = html;
+    document.getElementById('reviewPanel').classList.add('show');
+  };
+
+  window.__backToResults = function() {
+    document.getElementById('reviewPanel').classList.remove('show');
+    document.getElementById('reviewPanel').innerHTML = '';
+    document.getElementById('resultsContent').style.display = '';
   };
 
   window.startTest = function() {
